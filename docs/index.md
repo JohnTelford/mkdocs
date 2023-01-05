@@ -1,3 +1,7 @@
+
+>Version: 0.0.1
+Updated: Wed Jan 4
+
 What is iterative Website Development
 
 >A way to reduce lifetime cost of a website using contemporary website technology
