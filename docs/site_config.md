@@ -12,3 +12,9 @@
 - mkdocs root dir `runtime.txt` Python version 3.7  
 
     3.7
+
+- Environment variables:  
+  
+    Variable name: ZOLA_VERSION
+    
+    Value: 0.13.0
