@@ -4,7 +4,7 @@ Updated: Wed Jan 4
 
 What is iterative Website Development
 
->A way to reduce lifetime cost of a website using contemporary website technology
+>Reduces website lifetime cost by using contemporary website technology
 
 ## Markdown
 

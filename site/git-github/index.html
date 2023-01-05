@@ -312,18 +312,12 @@
     Models for collaborative development
   </a>
   
-    <nav class="md-nav" aria-label="Models for collaborative development">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#importing-a-git-repository-using-the-command-line" class="md-nav__link">
     Importing a Git repository using the command line
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -420,18 +414,12 @@
     Models for collaborative development
   </a>
   
-    <nav class="md-nav" aria-label="Models for collaborative development">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#importing-a-git-repository-using-the-command-line" class="md-nav__link">
     Importing a Git repository using the command line
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -450,10 +438,13 @@
                   
 
 
+  <h1>Git-Github</h1>
+
 <h2 id="version-control">Version Control<a class="headerlink" href="#version-control" title="Permanent link">&para;</a></h2>
 <p>Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later</p>
 <h2 id="vcs">VCS<a class="headerlink" href="#vcs" title="Permanent link">&para;</a></h2>
 <p>A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together. As developers make changes to the project, any earlier version of the project can be recovered at any time.</p>
+<hr />
 <h2 id="about-version-control-and-git">About version control and Git<a class="headerlink" href="#about-version-control-and-git" title="Permanent link">&para;</a></h2>
 <p><a href="https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git">About version control and Git</a></p>
 <h2 id="github">GitHub<a class="headerlink" href="#github" title="Permanent link">&para;</a></h2>
@@ -464,7 +455,18 @@
 <p><a href="https://docs.github.com/en/get-started/using-git/about-git#how-github-works">How GitHub works</a></p>
 <h2 id="basic-git-commands">Basic Git Commands<a class="headerlink" href="#basic-git-commands" title="Permanent link">&para;</a></h2>
 <p><a href="https://docs.github.com/en/get-started/using-git/about-git#basic-git-commands">Basic Git Commands</a></p>
-<h1 id="models-for-collaborative-development">Models for collaborative development<a class="headerlink" href="#models-for-collaborative-development" title="Permanent link">&para;</a></h1>
+<p>To use Git, developers use specific commands to copy, create, change, and combine code. These commands can be executed directly from the command line or by using an application like GitHub Desktop. Here are some common commands for using Git:</p>
+<p><code>git init</code> initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.</p>
+<p><code>git clone</code> creates a local copy of a project that already exists remotely. The clone includes all the project's files, history, and branches.</p>
+<p><code>git add</code> stages a change. Git tracks changes to a developer's codebase, but it's necessary to stage and take a snapshot of the changes to include them in the project's history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part of the project's history. Staging and committing separately gives developers complete control over the history of their project without changing how they code and work.</p>
+<p><code>git commit</code> saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that's been staged with git add will become a part of the snapshot with git commit.</p>
+<p><code>git status</code> shows the status of changes as untracked, modified, or staged.</p>
+<p><code>git branch</code> shows the branches being worked on locally.</p>
+<p><code>git merge</code> merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when they want to combine changes from a feature branch into the main branch for deployment.</p>
+<p><code>git pull</code> updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.</p>
+<p><code>git push</code> updates the remote repository with any commits made locally to a branch.</p>
+<p>For more information, see the <a href="https://git-scm.com/docs">Full Reference Guide To Git Commands</a>.</p>
+<h2 id="models-for-collaborative-development">Models for collaborative development<a class="headerlink" href="#models-for-collaborative-development" title="Permanent link">&para;</a></h2>
 <p><a href="https://docs.github.com/en/get-started/using-git/about-git#models-for-collaborative-development">Models for collaborative development</a></p>
 <h2 id="importing-a-git-repository-using-the-command-line">Importing a Git repository using the command line<a class="headerlink" href="#importing-a-git-repository-using-the-command-line" title="Permanent link">&para;</a></h2>
 <p><a href="https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line">Importing a Git repository using the command line</a></p>
