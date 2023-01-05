@@ -33,6 +33,7 @@ nav:
   - Home:
     - Iterative website development: index.md
     - Git-Github: git-github.md
+    - Site Config: site_config.md
 
   # - Teams:
   #   - Teams Overview: team_overview.md
