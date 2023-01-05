@@ -1,6 +1,6 @@
 What is iterative Website Development
 
-A way to reduce lifetime cost of a website using contemporary website technology
+>A way to reduce lifetime cost of a website using contemporary website technology
 
 ## Markdown
 
@@ -16,4 +16,4 @@ GitHub manages an online web hosted Central Website Repo
 
 GitHub is a Distributed Version Control Systems enabling multiple team members to work separately on the same project without having an impact on the work of others. 
 
-It is a unified source of truth. It helps teams collaborate and maintain the entire history, project file changes, and helps answer the questions who changed what, where, when, and why for the lifetime of the project
+It is a unified source of truth. It helps teams collaborate and maintain the entire history, project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
