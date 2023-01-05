@@ -1,6 +1,6 @@
 
 >Version: 0.0.1
-Updated: Wed Jan 4
+Updated: Wed Jan 5
 
 What is iterative Website Development
 
