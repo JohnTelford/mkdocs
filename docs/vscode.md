@@ -1,0 +1,8 @@
+## VScode
+
+Visual Studio Code is made by Microsoft and commonly referred to as VS Code. It is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on platforms Linux, macOS, and Windows.
+
+Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [git](git-github.md#git)
+
+Developer surveys show Visual Studio Code is ranked the most popular developer environment tool 
+

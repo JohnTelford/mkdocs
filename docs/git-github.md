@@ -1,19 +1,19 @@
-## Version Control
+Version control system records changes to files  over time so specific versions can be recalled later
 
-Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later
+When teams make changes to project files, the version control system tracks the history of changes. Earlier version of project files can be recovered at any time.
 
-## VCS
-A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together. As developers make changes to the project, any earlier version of the project can be recovered at any time.
+The version primary components are [GigHub](#GitHub), [Git](#git), and [VScode](vscode.md)
 
 ---
 
-## About version control and Git
-
-[About version control and Git](https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git)
+## Version Control and Git
 
 ## GitHub
 
-GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions who changed what, where, when, and why for the lifetime of the project
+GitHub is is a Distributed Version Control Systems is a Microsoft product. It enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
+
+[About version control and Git](https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git)
+
 
 ## Getting Started
 
@@ -24,6 +24,14 @@ GitHub is a Distributed Version Control Systems enabling multiple teams to work 
 [How GitHub works](https://docs.github.com/en/get-started/using-git/about-git#how-github-works)
 
 ---
+
+## git
+
+Git is the most widely used modern version control system in the world today. Git is mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source. Developers who have worked with Git are well represented in the pool of available software development talent and it works well on a wide range of operating systems and Integrated Development Environments such as VScode.
+
+Git Distributed Version Control System. Rather than have only one single place for the full version history of the software as in Git, every developer's working copy of the code is also a repository that can contain the full history of all changes.
+
+In addition to being distributed, Git has been designed with performance, security and flexibility in mind.
 
 ## Basic Git Commands
 
