@@ -28,12 +28,8 @@ Traditionally these companies built workstation products with Intel processors. 
 
 ## Apple
 
-<!--
-![Apple](/img/AppleLogo.png)
--->
-
-<img src="/img/AppleLogo.png" width="100"/>
-
+![Apple](/img/AppleLogo.png){ width="75" }
+ 
 [Apple](https://www.apple.com) is a computer manufacturing company delivering workstation products with Apple developed macOS certified UNIX operating systems.
 
 Apple recently released the first Mac products built with the ARM-based, Apple silicon designed, processors, and the macOS Big Sur operating system engineered to use [M1](https://en.wikipedia.org/wiki/Apple_M1) chip capabilities.
@@ -50,11 +46,11 @@ Operating systems updates have been free for years, and Apple continues to have 
 
 ## Linux
 
-<!--
-![Linux](/img/LinuxLogo.jpeg)
--->
 
-<img src="/img/LinuxLogo.png" width="100" />
+![Linux](/img/LinuxLogo.png){ width="75" }
+
+
+<!-- <img src="/img/LinuxLogo.png" width="100" /> -->
 
 [Linux](https://www.linux.org/) is an examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses
 
@@ -76,11 +72,11 @@ There are computer repair services that are equipped to diagnosed and repaired L
 
 ## Microsoft
 
-<!--
-![Microsoft](/img/MicrosoftLogo.png)
--->
 
-<img src="/img/MicrosoftLogo.png" width="100"/>
+![Microsoft](/img/MicrosoftLogo.png){ width="75" }
+
+
+<!-- <img src="/img/MicrosoftLogo.png" width="100"/> -->
 
 Many companies sell hardware platforms with Microsoft Windows installed. Many peripheral device vendors support Windows drivers.
 

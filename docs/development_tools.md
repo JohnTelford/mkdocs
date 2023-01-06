@@ -1,15 +1,7 @@
----
-title: Develpopment Tools
----
 
 ## VScode 
 
-<!--
-![vscodelogo](/img/vscodelogo.png)
--->
-
-<img src="/img/vscodelogo.png" width="100"/>
-
+![vscodelogo](/img/vscodelogo.png){ width="75" }
 
 [Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product.
 
@@ -69,7 +61,7 @@ Icons for Visual Studio Code
 
 ## Git Desktop
 
-![Git Desk Top](/img/gitdesktop.png)
+![Git Desk Top](/img/gitdesktop.png){ width="75" }
 
 An alternative to using these built-in [VScode](#vscode) commands is to use [GitHub Desktop](https://docs.github.com/en/desktop). It abstract [Github](#github) and more [Git](#git) commands. It interacts with GitHub using a GUI instead of the command line or a web browser. 
 
@@ -78,8 +70,6 @@ An alternative to using these built-in [VScode](#vscode) commands is to use [Git
 ---
 
 ## Git and GitHub References
-
-:::tip
 
 These [Git](#git) and [Github](#github) references contain concepts and commands:
 
@@ -91,11 +81,11 @@ These [Git](#git) and [Github](#github) references contain concepts and commands
 - [GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/)
 - [GitHub Desktop](https://docs.github.com/en/desktop)
 
-:::
 
 ## GitHub
 
-<img src="/img/gitHublogo.png" width="100"/>
+![gitHublogo](/img/gitHublogo.png){ width="75" }
+
 
 
 The core technologies of Iterative Development are, [Git](#git) and GitHub. The central project repository is controlled by the project gatekeeper, and a content delivery network, like [Cloudflare](#deploy/cloudflare), where Internet production websites and individual team private [Preview](deploy#preview) Internet websites, are deployed.
@@ -130,7 +120,7 @@ Teams may Pull the central project repository at anytime to view and test other 
 
 ## Git
 
-<img src="/img/gitlogo.png" width="100"/>
+![gitlogo](/img/gitlogo.png){ width="75" }
 
 [Git Tutorial](https://www.w3schools.com/git/default.asp?remote=github)
 
@@ -199,14 +189,11 @@ $ git switch -c non-existing-branch
 Switched to a new branch 'non-existing-branch'
 Congratulations, you have now successfully switched to another branch and you can start working on it.
 
-
----
- 
 ### Git Desktop
 
-<img src="/img/gitdesktop.png" width="100"/>
+![gitdesktop](/img/gitdesktop.png){ width="75" }
 
- Git Desktop is an alternative to using [VScode](#vscode) built-in Git commands. It abstract [Github](#github) and more [Git](#git) commands. It interacts with GitHub using a GUI instead of the command line or a web browser. It is a Microsoft product available on Mac and Windows.
+Git Desktop is an alternative to using [VScode](#vscode) built-in Git commands. It abstract [Github](#github) and more [Git](#git) commands. It interacts with GitHub using a GUI instead of the command line or a web browser. It is a Microsoft product available on Mac and Windows.
 
 [GitHub Desktop and VSCode](http://www.rodanthi-alexiou.com/github-101-github-desktop-and-vscode/) documents explain how to use GitHub Desktop with [VScode](#vscode). 
 
@@ -216,11 +203,7 @@ Congratulations, you have now successfully switched to another branch and you ca
 
 Editing Markdown / MDX website pages and blog posts using iA Writer is faster because of focus and grammar features with live preview.
 
-<!--
-![ialogo](/img/ialogo.png)
--->
-
-<img src="/img/ialogo.png" width="100"/>
+![ialogo](/img/ialogo.png){ width="75" } 
 
 - [iA Writer](https://apps.apple.com/us/app/ia-writer/id775737590?mt=12) is a Markdown Writing app:
     - Faster way to write MDX website material 
@@ -236,12 +219,8 @@ Editing Markdown / MDX website pages and blog posts using iA Writer is faster be
 
 ## Chronosync
 
-<!--
-![ChronoSync](/img/CSLogo300.png)
--->
+![ChronoSync](/img/CSLogo300.png){ width="75" }
 
-
-<img src="/img/CSLogo300.png" width="100"/>
 
 When one or more pages have been edited using [iA Writer](#ia-writer), the  [ChronoSync](https://www.econtechnologies.com/chronosync/overview.html) Mac app is used to synchronize files between iA Writer and the local repository. Since the  iA Writer files are store in iCloud, they are available for editing using supported devices when there is an internet connection.
 

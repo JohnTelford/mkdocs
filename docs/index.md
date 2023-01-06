@@ -2,14 +2,17 @@
 >Version: 0.0.1
 Updated: Wed Jan 5
 
-!!! note "To Do"
+!!! info "To Do"
     Expand on items  
 
-    - What is Iterative Website Development
-    - Static Site Generator  
+    - [ ] What is Iterative Website Development
+
+    - [ ]  Static Site Generator  
         - Programming Language
-    - Editing, command and control
-    - Version control system
+  
+    - [ ] Editing, command and control
+
+    - [ ]Version control system
 
 
 ## What is Iterative Website Development
