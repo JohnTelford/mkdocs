@@ -32,8 +32,14 @@ nav:
 #
   - Home:
     - Iterative website development: index.md
-    - Version Control System: git-github.md
+    - Version Control System: 
+      - GitHub: github.md
+      - Git: git.md
+      - Collaborative Development: collaborative.md
     - Site Config: site_config.md
+    - VScode: vscode.md
+    - Development Diagram: website_dev_stack.md
+    - Preview: preview.md
     - VScode: vscode.md
 
   # - Teams:

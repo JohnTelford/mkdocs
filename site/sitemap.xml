@@ -6,7 +6,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://localhost:8000/collaborative/</loc>
+         <lastmod>2023-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://localhost:8000/git-github%20copy/</loc>
+         <lastmod>2023-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://localhost:8000/git-github/</loc>
+         <lastmod>2023-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://localhost:8000/git/</loc>
+         <lastmod>2023-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://localhost:8000/github/</loc>
+         <lastmod>2023-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://localhost:8000/preview/</loc>
          <lastmod>2023-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -17,6 +42,11 @@
     </url>
     <url>
          <loc>https://localhost:8000/vscode/</loc>
+         <lastmod>2023-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://localhost:8000/website_dev_stack/</loc>
          <lastmod>2023-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
