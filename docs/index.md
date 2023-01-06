@@ -17,7 +17,7 @@ Updated: Wed Jan 5
 
 ## What is Iterative Website Development
 
-Use web development technologies to reduce website lifetime cost 
+It is a way of web development technologies to reduce website lifetime cost. Web sites development software development is a process that requires teamwork and cooperation. 
 
 ## Primary Technologies 
 

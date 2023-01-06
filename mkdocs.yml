@@ -36,9 +36,9 @@ nav:
       - GitHub: github.md
       - Git: git.md
       - VScode: vscode.md
-      - Materials for MkDocs:
-        - creating site.md
-        - diagrams.md
+      # - Materials for MkDocs:
+        # - creating site.md
+        # - diagrams.md
 
     # - Collaborative Development: collaborative.md
 
