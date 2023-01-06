@@ -31,16 +31,20 @@ theme:
 nav:
 #
   - Home:
-    - Iterative website development: index.md
+    - Iterative Website Development: index.md
     - Version Control System: 
       - GitHub: github.md
       - Git: git.md
-      - Collaborative Development: collaborative.md
+      - VScode: vscode.md
+      - Materials for MkDocs:
+        - creating site.md
+        - diagrams.md
+
+    # - Collaborative Development: collaborative.md
+
     - Site Config: site_config.md
-    - VScode: vscode.md
     - Development Diagram: website_dev_stack.md
     - Preview: preview.md
-    - VScode: vscode.md
 
   - Teams:
     - Teams Overview: team_overview.md
@@ -107,9 +111,6 @@ nav:
 #     - About: company.md
 #     - Contact: contact.md
 
-  - Materials for MkDocs:
-    - creating site.md
-    - diagrams.md
 
 markdown_extensions:
   - admonition

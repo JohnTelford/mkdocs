@@ -2,9 +2,21 @@
 >Version: 0.0.1
 Updated: Wed Jan 5
 
-What is iterative Website Development
+!!! note "To Do"
+    Expand on items  
 
->Reduces website lifetime cost by using contemporary website technology
+    - What is Iterative Website Development
+    - Static Site Generator  
+        - Programming Language
+    - Editing, command and control
+    - Version control system
+
+
+## What is Iterative Website Development
+
+Use web development technologies to reduce website lifetime cost 
+
+## Primary Technologies 
 
 ---
 
