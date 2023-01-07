@@ -8,9 +8,9 @@
 
     - mkdocs-material version  
   
-    `pip show mkdocs-material`  
+    - pip show mkdocs-material  
 
-    `mkdocs-material==<mkdocs-material version>` 
+    - mkdocs-material==<mkdocs-material version>
 
 
 
