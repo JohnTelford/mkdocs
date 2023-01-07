@@ -23,3 +23,13 @@
     Variable name: ZOLA_VERSION
     
     Value: 0.13.0
+
+## Upgrade Material MkDocs
+
+Upgrade to the latest version with:
+
+`pip install --upgrade --force-reinstall mkdocs-material`
+
+Show the currently installed version with:
+
+`pip show mkdocs-material`
