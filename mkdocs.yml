@@ -42,7 +42,7 @@ nav:
 
     # - Collaborative Development: collaborative.md
 
-    - Site Config: site_config.md
+    # - Site Config: site_config.md
     - Development Diagram: website_dev_stack.md
     - Preview: preview.md
 
