@@ -31,20 +31,22 @@ theme:
 nav:
 #
   - Home:
-    - Iterative Website Development: index.md
-    - Version Control System: 
-      - GitHub: github.md
-      - Git: git.md
-      - VScode: vscode.md
-      # - Materials for MkDocs:
-        # - creating site.md
-        # - diagrams.md
+    - Iterative website development: index.md
+    
+  - MkDocs:
+    - Material MkDocs: material_mkdocs.md
+
+  # - Version Control System: 
+  #   - GitHub: github.md
+  #   - VScode: vscode.md
+      # - creating site.md
+      # - diagrams.md
 
     # - Collaborative Development: collaborative.md
 
     # - Site Config: site_config.md
-    - Development Diagram: website_dev_stack.md
-    - Preview: preview.md
+    # - Development Diagram: website_dev_stack.md
+    # - Preview: preview.md
 
   - Teams:
     - Teams Overview: team_overview.md
@@ -120,7 +122,7 @@ markdown_extensions:
   - md_in_html
 
   - toc:
-      permalink: true
+      permalink: 
 
   - pymdownx.superfences:
       custom_fences:
