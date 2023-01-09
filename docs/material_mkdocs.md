@@ -22,10 +22,11 @@ Configuring the Content Delivery Network enables developers to frequently deploy
 
 ## Material MkDocs
 
-> Material MkDocs:  
-> - Helps speed up websites development  
+>  MkDocs:  
+> - Speeds up websites development  
 > - Compiles Markdown files to standard HTML, CSS, and JavaScript files for web browsers  
 > - Provides Internal Web Server for Workstation preview  
 > - Content Delivery Network provides Private Internet preview websites  
-> - Content Delivery Network provides production Internet websites
-
+> - Content Delivery Network provides Production Internet websites
+>
+> Material MkDocs:
