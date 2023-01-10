@@ -1,7 +1,7 @@
 
 ### Material MkDocs
 
-[Material MkDocs](https://squidfunk.github.io/mkdocs-material/) is a theme for [MkDocs](https://www.mkdocs.org/). It is a static website generator compiling
+[Material MkDocs](https://squidfunk.github.io/mkdocs-material/) is a theme for [MkDocs](https://www.mkdocs.org/) and adds Python Markdown extensions. It is a static website generator compiling
 [Markdown](markdown.md) source files into standard HTML, CSS, and JavaScript web browser languages files, and places them on an internal MkDocs web server. The developer access the MkDocs web server the workstation browser.
 
 Creating websites using the standard HTML, CSS, and JavaScript web browser requires developers who know these languages and are able to use them. Creating websites with MkDocs only requires knowing Markdown, not a strict foreign language

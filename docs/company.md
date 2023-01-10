@@ -1,9 +1,4 @@
----
-title: Company
----
 
-
-# Company
 
 I am the sole proprietor of JohnTelford.com LLC technology consulting company, working with client  development projects for more that 30 years.
 

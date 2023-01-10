@@ -60,7 +60,7 @@ nav:
     - Maintenance Team: team_maintenance.md
 
   - Company:
-    - Information: company.md
+    - Company: company.md
     - Contact: contact.md
 
   # - Teams:
@@ -114,6 +114,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.extra
+  - pymdownx.betterem
   - attr_list
   - md_in_html
 
