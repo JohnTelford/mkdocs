@@ -2,142 +2,147 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://localhost:8000/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/collaborative/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/company/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/contact/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/defect_remediation_cost/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/dev_stack_details/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/development_tools/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/git-github%20copy/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/git-github/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/git/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/github/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/hype_curve/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/hype_guesstimates/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://localhost:8000/markdown/</loc>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/material_mkdocs/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/minimum_viable_product/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/preview/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/programming/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/remediation/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/site_config/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/team_define/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/team_deploy/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/team_design/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/team_develop/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/team_maintenance/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/team_overview/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/vscode/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/website_dev_stack/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/workstations/</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

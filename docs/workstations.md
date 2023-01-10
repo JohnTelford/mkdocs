@@ -1,17 +1,10 @@
----
-slug: workstations
-title: Workstations
----
 
-!!! info
-    Workstations are the key hardware for website developers 
-
-
-## Overview
+Workstations are the key hardware for website developers
 
 Web site development is not easy, time consuming, and expensive. Optimizing the website development environment is critical.
 
-The key hardware for website developers are terminals. They need to be: 
+The key hardware for website developers are workstations. They need to be:
+
 - Fast
 - Reliable
 - Supportable
@@ -38,25 +31,21 @@ The last Apple processor transition was the Motorola 68000 to the Intel x86. It 
 
 Apple products prices may be higher than their competitors. It is mitigated by the quality of hardware and software, robustness, security, and vendor support.
 
-Any web developer workstation downtime is expensive. The advantages of Apple products are robustness, reliability, security, speed, vendor hardware and software support, and relative ease to use. Apple has responsibility for maintaining hardware and software products from sale to retirement. Apple Stores and other services are equipped to diagnose and repair Apple products.
+Any web developer workstation downtime is expensive. The advantages of Apple products are robustness, reliability, security, speed, vendor hardware and software support, and relative ease of use. Apple has responsibility for maintaining hardware and software products from sale to retirement. Apple Stores and other services are equipped to diagnose and repair Apple products.
 
-Operating systems updates have been free for years, and Apple continues to have the highest customer satisfaction in the industry.
+Operating systems updates have been free for years, and work when applied. Apple continues to have the highest customer satisfaction in the industry.
 
 ---
 
 ## Linux
 
-
 ![Linux](/img/LinuxLogo.png){ width="75" }
-
-
-<!-- <img src="/img/LinuxLogo.png" width="100" /> -->
 
 [Linux](https://www.linux.org/) is an examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses
 
 Linux is the leading operating system on web servers. Its greatest success in the consumer market is mobile device. Android being one of the dominant smartphones Linux-based operating system
 
-There are a some Linux vendor supported hardware platforms or Linux software distributions. The diversity of Linux distributions means that not all software or hardware runs all distributions or applications. Software and software repositories may be specific to a particular distribution
+There are a some Linux vendor supporting hardware platforms or Linux software distributions. The diversity of Linux distributions means that not all software or hardware runs all distributions or applications. Software and hardware repositories may be specific to particular distributions
 
 Not all peripheral device vendors support Linux. The Linux open-source community supplies several missing device drivers.
 
@@ -64,7 +53,7 @@ The price of Linux-based systems is attractive. The operating system software is
 
 The robustness, reliability, security, and speed of Linux systems varies from low to high, depending on the knowledge and skills of the vendors, builders and maintainers
 
-Responsibility for maintaining Linux workstation hardware, operating systems, and device drivers is fragmented or doesn't exist, except from the vendors, builders and maintainers
+Responsibility for maintaining Linux workstation hardware, operating systems, and device drivers is fragmented or doesn't exist, except from some vendors, builders and maintainers
 
 There are computer repair services that are equipped to diagnosed and repaired Linux systems, but not to the extent of Apple Stores
 
@@ -87,3 +76,6 @@ There are computer repair services that are equipped to diagnosed and repaired W
 
 ---
 
+> Workstations from these vendors are being used to develop web sited. Some are better than others.
+> 
+> Building web sites with purchased and bare metal built Linux systems and bare metal built Microsoft systems. I use apple products for exploring Internet technologies and creating web sites. 

@@ -1,7 +1,7 @@
 
-##  MkDocs
+### Material MkDocs
 
-Material MkDocs, commonly referred to as MkDocs, is a static website generator. It compiles Markdown source files into standard HTML, CSS, and JavaScript web browser languages files, and places them on an internal MkDocs web server. The developer access the MkDocs web server the workstation browser.
+[Material MkDocs](https://squidfunk.github.io/mkdocs-material/), commonly referred to as MkDocs, is a static website generator. It compiles Markdown source files into standard HTML, CSS, and JavaScript web browser languages files, and places them on an internal MkDocs web server. The developer access the MkDocs web server the workstation browser.
 
 Creating websites using the standard HTML, CSS, and JavaScript web browser requires developers who know these languages and are able to use them. Creating websites with MkDocs only requires knowing Markdown, not a strict foreign language
 
@@ -20,7 +20,6 @@ What the developer sees on the workstation is exactly what the Content Delivery 
 Configuring the Content Delivery Network enables developers to frequently deploy their work to private internet Previews website for stakeholders, interested parties, and other Teams to see their work and provide feedback.
 
 
-## Material MkDocs
 
 >  MkDocs:  
 > - Speeds up websites development  

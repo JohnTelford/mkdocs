@@ -2,7 +2,7 @@
 
 <!-- <img src="/img/vscodelogo.png" width="100"/> -->
 
-[vscodelogo](/img/vscodelogo.png){ width="100"}
+![vscodelogo](/img/vscodelogo.png){ width="100"}
 
 <!-- !!!info
 <!-- [Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product. -->

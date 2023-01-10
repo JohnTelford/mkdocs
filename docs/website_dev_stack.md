@@ -102,7 +102,7 @@ It is also used by the Content Delivery network(CDN) do build and deploy the pro
 
 
 
-- Content Delivery Network (CDN)
+#### Content Delivery Network (CDN)
 
 
 
@@ -110,21 +110,17 @@ It is also used by the Content Delivery network(CDN) do build and deploy the pro
 A "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
 
 
+### GitHub 
+Central Repository.  
 
+>The core technologies of Iterative Development are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+>
 
+>GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
 
-=====
+>The Central Repository is managed my a team member
 
-- GitHubQ  
-    - Central Repository.  
-	
-    	- The core technologies of Iterative Development are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
-		
-		- GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
-
-		- The Central Repository is managed my a team member
-
-		>It helps answer the questions for the lifetime of the project who changed what, where, when, and why?
+>It helps answer the questions for the lifetime of the project **who changed what, where, when, and why?** for the lifetime of the project
 
 
 
@@ -132,16 +128,15 @@ A "MkDocs Static Site Generator" tools are used to create the "Production Websit
 
 
 
-Team members use the Website Development Stack to develop and deploy websites to the Internet. 
+>Team members use the Website Development Stack to develop, deploy, and maintain websites to the Internet. 
 
-There would be confusion and possible defects created if Team members were to directly make changes to the central project repository.  
+>There would be confusion and possible defects created if Team members were to directly make changes to the central project repository.  
 
-A solution to this problem is to have one central repository controlled by a team member gatekeeper. Each team member [forks](git-github#fork) a copy of central project repository to their GetHub account and makes a [clone](glossary#clone) of it on their workstation.
-
----
+>A solution to this problem is to have one central repository controlled by a team member gatekeeper. Each team member [forks](git-github#fork) a copy of central project repository to their GetHub account and makes a [clone](glossary#clone) of it on their workstation.
 
 
-- Each developer makes changes to their repository [clone](glossary#clone). They cannot directly make changes to the central repository.
+
+>Each developer makes changes to their repository [clone](glossary#clone). They cannot directly make changes to the central repository.
 
 	- Team members commit changes to their local repository clone
 
