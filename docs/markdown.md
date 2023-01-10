@@ -1,6 +1,6 @@
 ### Markdown
 
-The primary MkDocs website programming language is Markdown, not the standard HTML,CSS, and JavaScript languages. Each is a strict foreign language requiring developers who know the languages and are able to use them . The Markdown language
+The primary MkDocs website programming language is Markdown, not the standard HTML,CSS, and JavaScript languages. Each is a strict foreign language requiring developers to know the languages and are able to use them . The Markdown language
 
 Using Markdown is different then using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.
 
