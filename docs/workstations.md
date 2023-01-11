@@ -31,9 +31,11 @@ The last Apple processor transition was the Motorola 68000 to the Intel x86. It 
 
 Apple products prices may be higher than their competitors. It is mitigated by the quality of hardware and software, robustness, security, and vendor support.
 
-Any web developer workstation downtime is expensive. The advantages of Apple products are robustness, reliability, security, speed, vendor hardware and software support, and relative ease of use. Apple has responsibility for maintaining hardware and software products from sale to retirement. Apple Stores and other services are equipped to diagnose and repair Apple products.
+Any web developer workstation downtime is expensive. The advantages of Apple products are robustness, reliability, security, speed, vendor hardware and software support, and relative ease of use. Apple has responsibility for maintaining their hardware and software products from sale to retirement. Apple Stores and other services are equipped to diagnose and repair Apple products.
 
-Operating systems updates have been free for years, and work when applied. Apple continues to have the highest customer satisfaction in the industry.
+Operating systems updates have been free for years, and work when applied. 
+
+Apple continues to have the highest customer satisfaction in the industry.
 
 ---
 
@@ -51,7 +53,7 @@ Not all peripheral device vendors support Linux. The Linux open-source community
 
 The price of Linux-based systems is attractive. The operating system software is free. Ready-made hardware platforms are available, or can be bare metal built by choosing hardware and software components, and having the skills to assemble and maintain them.
 
-The robustness, reliability, security, and speed of Linux systems varies from low to high, depending on the knowledge and skills of the vendors, builders and maintainers
+The robustness, reliability, security, and speed of Linux systems varies from high to low, depending on the knowledge and skills of the vendors, builders and maintainers
 
 Responsibility for maintaining Linux workstation hardware, operating systems, and device drivers is fragmented or doesn't exist, except from some vendors, builders and maintainers
 
@@ -70,12 +72,12 @@ Consumer versions of Windows were originally designed for ease-of-use on a singl
 
 Windows is one of hackers prime data hunting grounds, even with frequent security updates. Windows systems are everywhere and stores or has access to vast amounts of data. There are Windows installations that do not keep Windows updated. One reason may be issues with updates. Microsoft Windows update problem 2022 are recent examples.
 
-The reliability, robustness, security, and supportability of Microsoft systems varies from low to high, depending on the knowledge and skills of vendors, builders and maintainers. The combinations and permutations of vendor hardware platforms, software applications, and peripheral vendors and device support, may be contributing to Microsoft Windows update problems.
+The reliability, robustness, security, and supportability of Microsoft systems varies from high to low, depending on the knowledge and skills of vendors, builders and maintainers. The combinations and permutations of vendor hardware platforms, software applications, and peripheral vendors and device support, may be contributing to Microsoft Windows update problems.
 
 There are computer repair services that are equipped to diagnosed and repaired Windows systems, but not to the extent of Apple Stores.
 
 ---
 
 > Workstations from these vendors are being used to develop web sited. Some are better than others.
-> 
-> Building web sites with purchased and bare metal built Linux systems and bare metal built Microsoft systems. I use apple products for exploring Internet technologies and creating web sites. 
+
+> I use apple products for exploring Internet technologies and creating web sites. It seems simpler, more reliable, secure, and supportable than building web sites with purchased or bare metal built Linux or Microsoft systems. 

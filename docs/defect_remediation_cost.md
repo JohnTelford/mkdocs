@@ -2,6 +2,7 @@
 title: Defect Remediation Costs​
 ---
 
+### Costs
 
 - The highest cost over the life time of website projects is remediating defects.
 

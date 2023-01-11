@@ -14,3 +14,20 @@ Creating, adding features and functions, and maintaining websites that meet user
 >Team members independently or collaborative iterate and test new functionality, and remediate defects of the website under development or deployed, lowering   lifetime costs
 >
 
+### Site TODO
+
+- [x] VScode - tidy
+- [ ] preview -add
+- [ ] github - tidy
+- [ ] git - add
+- [ ] dev stack details - tidy
+- [ ] teams - tidy
+- [ ] defect remediation - add
+- [ ] hype curve - add
+    - [ ] hype guesstimates -add
+- [ ] development tools -add
+- [ ] placement of defect notice
+- [x] site ops - add
+    - [ ] site ops - tidy
+- [ ] etc menu
+    - [ ] minimum_viable_product -add

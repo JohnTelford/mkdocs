@@ -43,7 +43,8 @@ nav:
     # - Site Config: site_config.md
     # - Development Diagram: website_dev_stack.md
     # - Preview: preview.md
-    - Remediation: defect_remediation_cost.md
+
+  - Remediation: defect_remediation_cost.md
 
   - Teams:
     - Teams Overview: team_overview.md
@@ -55,13 +56,17 @@ nav:
 #        - Dev Stack Details: dev_stack_details.md
       - Development Tools: development_tools.md
       - Programming: programming.md
-      # - Workstations: workstations.md
     - Deploy Team: team_deploy.md
     - Maintenance Team: team_maintenance.md
 
   - Company:
     - Company: company.md
     - Contact: contact.md
+
+  - Etc:
+    - Site Ops: site_ops.md
+    - Minimum Viable Product: minimum_viable_product.md
+    - Defect Remediation Costs​: defect_remediation_cost.md
 
   # - Teams:
   #   - Teams Overview: team_overview.md
@@ -115,6 +120,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.extra
   - pymdownx.betterem
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+
   - attr_list
   - md_in_html
 
