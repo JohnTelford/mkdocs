@@ -9,7 +9,7 @@ Creating, adding features, functions, security and maintaining websites that mee
 
 ### What is Iterative Website Development
 
->It is a way of creating websites using web development disciplines and technologies to reduce website lifetime cost. Web sites software development is a process that requires teamwork and cooperation. 
+>It is a way of creating websites using web development disciplines and technologies to reduce website lifetime cost. Web sites  development is a process that requires teamwork and cooperation. 
 
 >Team members independently or collaborative iterate and test new functionality, and remediate defects of the website under development or deployed, lowering   lifetime costs
 >
