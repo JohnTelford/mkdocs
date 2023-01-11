@@ -2,9 +2,9 @@
 
 This site is about lowering website development costs. It describes developing websites using Iterative Website Development.
 
-Creating, adding features and functions, and maintaining websites that meet users needs is difficult, complex, time consuming, and expensive. Team members support  is a large part of website total lifetime costs.
+Creating, adding features, functions, security and maintaining websites that meet users needs is difficult, complex, time consuming, and expensive. Team members support is a large part of total website  lifetime costs.
 
-> Some times companies may have little interest in how their websites are constructed, as long as they have the features and functionality needed to satisfy their target market. The cost of errors, security, remediation's, adding features, and functionality, during the life time of the website, dramatically increases website lifetime costs.
+> Some times companies may have little interest in how their websites are constructed, as long as they have the features and functionality needed to satisfy their target market. The cost of defects, security, remediation's, adding features, and functionality, during the life time of the website, dramatically increases website lifetime costs.
 
 
 ### What is Iterative Website Development
@@ -16,7 +16,9 @@ Creating, adding features and functions, and maintaining websites that meet user
 
 ### Site TODO
 
-- [x] VScode - tidy
+- [ ] use different media for checking
+- [ ] Security
+- [ ] VScode - tidy
 - [ ] preview -add
 - [ ] github - tidy
 - [ ] git - add

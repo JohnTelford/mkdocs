@@ -24,7 +24,7 @@ theme:
 nav:
 #
   - Home:
-    - Iterative website development: index.md
+    - Iterative Website Development: index.md
 
   - Technologies:
     - Workstations: workstations.md
