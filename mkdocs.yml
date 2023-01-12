@@ -2,9 +2,15 @@
  
 site_name: John Telford - mkdocs
 
-theme:
 
+theme:
+    
   name: material
+  custom_dir: overrides
+
+  repo_url: https://github.com/JohnTelford/mkdocs.git
+  repo_name: mkdocs-dev
+
 
   features:
     - navigation.instant
@@ -13,27 +19,60 @@ theme:
     - navigation.expand
     - navigation.tracking
     - toc.follow
-    - header.autoide
+    - header.autohide
 
   palette:
 
     primary: teal
     accent: indigo
  
-  features:
-    - navigation.tracking
-    - navigation.instant
-    # - navigation.indexes
-    - toc.follow
-    # - navigation.tabs
-
 # nav tree
 nav:
 #
   - Home:
-    - Iterative website development: index.md
-    - Git-Github: git-github.md
-    - Site Config: site_config.md
+    - Iterative Website Development: index.md
+
+  - Technologies:
+    - Workstations: workstations.md
+    - Material MkDocs: material_mkdocs.md
+    - Markdown: markdown.md
+    - Version Control System: 
+      - VScode: vscode.md
+      - GitHub: github.md
+
+    
+  - Development Stack:
+    - Site: website_dev_stack.md
+
+    # - Collaborative Development: collaborative.md
+
+    # - Site Config: site_config.md
+    # - Development Diagram: website_dev_stack.md
+    # - Preview: preview.md
+
+  - Remediation: defect_remediation_cost.md
+
+  - Teams:
+    - Teams Overview: team_overview.md
+    - Define Team: team_define.md
+    - Design Team: team_design.md
+    - Development Team:
+      - Website Development: team_develop.md
+      # - Development Stack:
+#        - Dev Stack Details: dev_stack_details.md
+      - Development Tools: development_tools.md
+      - Programming: programming.md
+    - Deploy Team: team_deploy.md
+    - Maintenance Team: team_maintenance.md
+
+  - Company:
+    - Company: company.md
+    - Contact: contact.md
+
+  - Etc:
+    - Site Ops: site_ops.md
+    - Minimum Viable Product: minimum_viable_product.md
+    - Defect Remediation Costs​: defect_remediation_cost.md
 
   # - Teams:
   #   - Teams Overview: team_overview.md
@@ -59,11 +98,6 @@ nav:
   #   - Website Development:
   #     - MkDocs: https://www.mkdocs.org
   #     - Materials for MkDocs: https://squidfunk.github.io/mkdocs-material/
-
-  # - Company:
-  #   - Information: company.md
-  #   - Contact: contact.md
-
   # - Site Notes: 
   #   - Remediation: remediation.md
   #   - Glossary: glossary.md
@@ -86,21 +120,23 @@ nav:
 #     - About: company.md
 #     - Contact: contact.md
 
-#   - Materials for MkDocs:
-#     - creating site.md
-#     - diagrams.md
-
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: false
+      
 markdown_extensions:
   - admonition
-  
   - pymdownx.details
-  
   - pymdownx.extra
+  - pymdownx.betterem
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+
   - attr_list
   - md_in_html
 
   - toc:
-      permalink: true
+      permalink: 
 
   - pymdownx.superfences:
       custom_fences:
@@ -108,7 +144,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-dev_addr: 127.0.0.1:8000
+dev_addr: localhost:8000
 
 copyright: Copyright &copy; 2022 John Telford
 

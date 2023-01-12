@@ -1,23 +1,39 @@
 
->Version: 0.0.1
-Updated: Wed Jan 4
 
-What is iterative Website Development
+- [x] reviewed
 
->Reduces website lifetime cost by using contemporary website technology
+This site is about lowering website development costs. It describes developing websites using Iterative Website Development.
 
-## Markdown
+Creating, adding features, functions, security and maintaining websites that meet users needs is difficult, complex, time consuming, and expensive. Team members support is a large part of total website  lifetime costs.
 
-The primary website programming language is Markdown, not the troika standard HTML,CSS, and JavaScript languages. Each is a strict foreign language. Markdown is not
+> Some times companies may have little interest in how their websites are constructed, as long as they have the features and functionality needed to satisfy their target market. The cost of defects, security, remediation's, adding features, and functionality, during the life time of the website, dramatically increases website lifetime costs.
 
-Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.
 
-For example, to denote a heading, you add a number sign before it (e.g., # Heading One). Or to make a phrase bold, you add two asterisks before and after it (e.g., **this text is bold**). It may take a while to get used to seeing Markdown syntax in your text, especially if you’re accustomed to WYSIWYG applications
+### What is Iterative Website Development
 
-## GitHub
+>It is a way of creating websites using web development disciplines and technologies to reduce website lifetime cost. Web sites  development is a process that requires teamwork and cooperation. 
 
-GitHub manages an online web hosted Central Website Repo
+>Team members independently or collaborative iterate and test new functionality, and remediate defects of the website under development or deployed, lowering   lifetime costs
+>
 
-GitHub is a Distributed Version Control Systems enabling multiple team members to work separately on the same project without having an impact on the work of others. 
+### Site TODO
 
-It is a unified source of truth. It helps teams collaborate and maintain the entire history, project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
+- [ ] use different media for checking
+- [ ] Security
+- [ ] VScode - tidy
+- [ ] preview -add
+- [ ] github - tidy
+- [ ] git - add
+- [ ] dev stack details - tidy
+- [ ] teams - tidy
+- [ ] defect remediation - add
+- [ ] hype curve - add
+    - [ ] hype guesstimates -add
+- [ ] development tools -add
+- [ ] placement of defect notice
+- [x] site ops - add
+    - [ ] site ops - tidy
+- [ ] etc menu
+    - [ ] minimum_viable_product -add
+- [ ] search
+- [ ] 
