@@ -1,4 +1,4 @@
-<!-- Iterative Website Development -->
+- [x] reviewed
 
 This site is about lowering website development costs. It describes developing websites using Iterative Website Development.
 
