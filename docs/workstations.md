@@ -1,5 +1,5 @@
 
-Workstations are the key hardware for website developers
+Workstations are the key to website development productivity. 
 
 Web site development is not easy, time consuming, and expensive. Optimizing the website development environment is critical.
 
@@ -12,7 +12,7 @@ The key hardware for website developers are workstations. They need to be:
 - Support Large or Multiple Screens
 - Run Software Development Applications
 
-The contemporary choice for web development workstations are Apple, Linux, and Microsoft. My experience building and maintaining  web sites with purchased or bare metal built Linux systems or Microsoft systems, was my reason to choose Apple products for exploring Internet technologies and creating web sites.
+The contemporary choice for web development workstations are Apple, Linux, and Microsoft. My experience building and maintaining  web sites with purchased or bare metal built Linux systems or Microsoft systems, was my reason choosing Apple products for exploring Internet technologies and creating web sites.
 
 Traditionally these companies built workstation products with Intel processors. They are diversifying their product line with [ARM-based](https://en.wikipedia.org/wiki/ARM_architecture) and [RISC-architecture](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) processors
 
