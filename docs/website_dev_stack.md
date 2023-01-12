@@ -66,7 +66,7 @@ flowchart TB
 
 The Iterative Development teams use the Iterative Website Development Stack technologies
 
-- The core technologies of Iterative WebsiteDevelopment are [Git](), the GitHu[GitHub](dev_stack_details#github-details) central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
+- The core technologies of Iterative WebsiteDevelopment are [Git](), [GitHub](dev_stack_details#github-details) central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
 
 The core technologies of Iterative Development are [Git](dev_stack_details#git), GitHub, and the Central Website Repository controlled by the project gatekeeper, and a Content Delivery Network (CDN), like Cloudflare, deploying Private Preview Internet websites, production websites, and individual team members Private Preview websites.
 
@@ -122,13 +122,9 @@ Central Repository.
 
 >It helps answer the questions for the lifetime of the project **who changed what, where, when, and why?** for the lifetime of the project
 
-
-
 ---
 
-
-
->Team members use the Website Development Stack to develop, deploy, and maintain websites to the Internet. 
+> Team members use the Website Development Stack to develop, deploy, and maintain websites to the Internet. 
 
 >There would be confusion and possible defects created if Team members were to directly make changes to the central project repository.  
 
@@ -138,9 +134,9 @@ Central Repository.
 
 >Each developer makes changes to their repository [clone](glossary#clone). They cannot directly make changes to the central repository.
 
-	- Team members commit changes to their local repository clone
+- Team members commit changes to their local repository clone
 
-	- They may deploy their local repository to a private [Preview](preview.md) Internet website for stakeholders to see and give feedback. 
+- They may deploy their local repository to a private [Preview](preview.md) Internet website for stakeholders to see and give feedback. 
 
 - The process is managed using [GitHub for Teams](https://github.com/team). When stakeholders determine developers changes, defect fixes, or new features are ready, a GitHub [Pull Request](git-github#pull-request) is made by developers to the central project repository. 
 
@@ -154,7 +150,3 @@ Central Repository.
 
 - The central project repository may be deployed to the public Internet by the gatekeeper after stakeholders agree there have been sufficient development and testing iterations.
 
----
-
-!!! Danger "Defects"
-	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 

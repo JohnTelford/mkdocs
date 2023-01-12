@@ -2,9 +2,15 @@
  
 site_name: John Telford - mkdocs
 
+
 theme:
     
   name: material
+  custom_dir: overrides
+
+  repo_url: https://github.com/JohnTelford/mkdocs.git
+  repo_name: mkdocs-dev
+
 
   features:
     - navigation.instant
@@ -114,7 +120,10 @@ nav:
 #     - About: company.md
 #     - Contact: contact.md
 
-
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: false
+      
 markdown_extensions:
   - admonition
   - pymdownx.details

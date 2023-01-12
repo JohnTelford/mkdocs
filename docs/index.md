@@ -1,3 +1,5 @@
+
+
 - [x] reviewed
 
 This site is about lowering website development costs. It describes developing websites using Iterative Website Development.
@@ -33,3 +35,5 @@ Creating, adding features, functions, security and maintaining websites that mee
     - [ ] site ops - tidy
 - [ ] etc menu
     - [ ] minimum_viable_product -add
+- [ ] search
+- [ ] 

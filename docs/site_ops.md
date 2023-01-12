@@ -29,15 +29,26 @@
          - [ ] Variable name: `ZOLA_VERSION` 0.13.0
 
 ---
+#### Create a mkdocs site
 
+-  `pip3 install mkdocs-material`
+-  `pip mkdocs new .`  
+-  
 #### Upgrade Material MkDocs
 
 Upgrade to the latest version with:
 
-- [ ] `pip install --upgrade --force-reinstall mkdocs-material`
+-  `pip install --upgrade --force-reinstall mkdocs-material`
 
 Show the currently installed version with:
 
-- [ ] `pip show mkdocs-material`
+-  `pip show mkdocs-material`
+
+#### plugins
+
+- [Document Dates](https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates)
+
+- 
+
 
 ---
