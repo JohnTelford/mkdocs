@@ -20,7 +20,7 @@ Defining website prerequisites is the first steps in optimizing website costs
 
 - Content
 
-- The musts and wants features
+- The **Must** and **Want** features
 
-- The security requirements
+- Security requirements
 
