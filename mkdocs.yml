@@ -45,7 +45,7 @@ nav:
   - Technologies:
     - Workstations: workstations.md
     - Material MkDocs: material_mkdocs.md
-    - Markdown: markdown.
+    - Markdown: markdown.md
 
   - Development Stack:
     - Dev Stack: dev_stack.md
