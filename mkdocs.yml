@@ -42,13 +42,8 @@ nav:
 
     
   - Development Stack:
-    - Site: website_dev_stack.md
-
-    # - Collaborative Development: collaborative.md
-
-    # - Site Config: site_config.md
-    # - Development Diagram: website_dev_stack.md
-    # - Preview: preview.md
+    - Dev Stack: dev_stack.md
+    - Dev Stack Details: dev_stack_details.md
 
   - Remediation: defect_remediation_cost.md
 
@@ -58,8 +53,7 @@ nav:
     - Design Team: team_design.md
     - Development Team:
       - Website Development: team_develop.md
-      # - Development Stack:
-#        - Dev Stack Details: dev_stack_details.md
+
       - Development Tools: development_tools.md
       - Programming: programming.md
     - Deploy Team: team_deploy.md
