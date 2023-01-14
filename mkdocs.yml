@@ -42,7 +42,11 @@ nav:
     - Markdown: markdown.md
     - Version Control System: 
       - VScode: vscode.md
-      - GitHub: github.md
+      - GitHub:
+        - GitHub: github.md
+        - GitHub Flow: github_flow.md
+        - GitHub Docs: https://docs.github.com/en
+
       - Git: git.md
 
 
