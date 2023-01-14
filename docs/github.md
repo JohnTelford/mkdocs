@@ -7,11 +7,11 @@ GitHub is is a Distributed Version Control Systems is a Microsoft product. It en
 
 [Getting Started](https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git)
 
-### How GitHub works
+### How GitHub Works
 
 [How GitHub works](https://docs.github.com/en/get-started/using-git/about-git#how-github-works)
 
-### How we use GitHub to be more productive, collaborative, and secure
+### How We Use Github To Be More Productive, Collaborative, And Secure
 
 [How we use GitHub to be more productive, collaborative, and secure](https://github.blog/2022-12-20-how-we-use-github-to-be-more-productive-collaborative-and-secure/)
 

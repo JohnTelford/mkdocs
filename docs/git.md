@@ -54,11 +54,14 @@ To use Git, developers use specific commands to copy, create, change, and combin
 
 ---
 
-## Models for collaborative development
+### Models for collaborative development
 
 [Models for collaborative development](https://docs.github.com/en/get-started/using-git/about-git#models-for-collaborative-development)
 
-## Importing a Git repository using the command line
+### Importing a Git repository using the command line
 
 [Importing a Git repository using the command line](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line)
 
+### Git Cheat Sheet
+
+[Git Cheat Sheet](https://docs.github.com/en/get-started/quickstart/git-cheatsheet)
