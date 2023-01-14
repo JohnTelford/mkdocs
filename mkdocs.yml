@@ -43,10 +43,12 @@ nav:
     - Version Control System: 
       - VScode: vscode.md
       - GitHub: github.md
+      - Git: git.md
 
-    
+
   - Development Stack:
-    - Site: website_dev_stack.md
+    - Dev Stack: dev_stack.md
+    - Dev Stack Details: dev_stack_details.md
 
   - Remediation: defect_remediation_cost.md
 
@@ -56,8 +58,7 @@ nav:
     - Design Team: team_design.md
     - Development Team:
       - Website Development: team_develop.md
-      # - Development Stack:
-#        - Dev Stack Details: dev_stack_details.md
+
       - Development Tools: development_tools.md
       - Programming: programming.md
     - Deploy Team: team_deploy.md
