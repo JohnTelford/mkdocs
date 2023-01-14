@@ -39,6 +39,7 @@ nav:
     - Version Control System: 
       - VScode: vscode.md
       - GitHub: github.md
+      - Git: git.md
 
     
   - Development Stack:
