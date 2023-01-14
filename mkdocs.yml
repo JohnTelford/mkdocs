@@ -36,19 +36,16 @@ nav:
   - Home:
     - Iterative Website Development: index.md
 
+  - Version Control System: 
+    - Overview: version_control_overview.md
+    - VScode: vscode.md
+    - GitHub: github.md
+    - Git: git.md
+
   - Technologies:
     - Workstations: workstations.md
     - Material MkDocs: material_mkdocs.md
-    - Markdown: markdown.md
-    - Version Control System: 
-      - VScode: vscode.md
-      - GitHub:
-        - GitHub: github.md
-        - GitHub Flow: github_flow.md
-        - GitHub Docs: https://docs.github.com/en
-
-      - Git: git.md
-
+    - Markdown: markdown.
 
   - Development Stack:
     - Dev Stack: dev_stack.md

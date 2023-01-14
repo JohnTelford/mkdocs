@@ -1,10 +1,10 @@
-<!-- ## git -->
 
 Git is the most widely used modern version control system in the world today. Git is mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source. Developers who have worked with Git are well represented in the pool of available software development talent and it works well on a wide range of operating systems and Integrated Development Environments such as VScode.
 
 Git Distributed Version Control System. Rather than have only one single place for the full version history of the software as in Git, every developer's working copy of the code is also a repository that can contain the full history of all changes.
 
 In addition to being distributed, Git has been designed with performance, security and flexibility in mind.
+
 
 ## Basic Git Commands
 
@@ -48,10 +48,21 @@ To use Git, developers use specific commands to copy, create, change, and combin
 
 `git push` updates the remote repository with any commits made locally to a branch.
 
-### Full Reference Guide To Git Commands
+## Git References
 
-[Full Reference Guide To Git Commands](https://git-scm.com/docs).
+### Git Book
 
+Everything You need to know
+
+- Read online [Git Book](https://git-scm.com/book/en/v2) 
+
+- Download PDF book [Git Book](https://github.com/progit/progit2/releases/download/2.1.360/progit.pdf) 
+
+[Full Reference Guide To Git Commands](https://git-scm.com/docs)
+
+### Git Cheat Sheet
+
+[Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
 ---
 
 ### Models for collaborative development
@@ -62,6 +73,3 @@ To use Git, developers use specific commands to copy, create, change, and combin
 
 [Importing a Git repository using the command line](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line)
 
-### Git Cheat Sheet
-
-[Git Cheat Sheet](https://docs.github.com/en/get-started/quickstart/git-cheatsheet)

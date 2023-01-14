@@ -66,11 +66,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://localhost:8000/github_flow/</loc>
-         <lastmod>2023-01-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://localhost:8000/hype_curve/</loc>
          <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
@@ -142,6 +137,11 @@
     </url>
     <url>
          <loc>https://localhost:8000/team_overview/</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://localhost:8000/version_control_overview/</loc>
          <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
