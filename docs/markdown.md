@@ -18,6 +18,9 @@ The [The Markdown Guide](https://www.markdownguide.org) explains how to use Mark
 
 > Markdown-formatted text can be created on any device running any operating system
 
-> For any markup that is not covered by Markdown's syntax, HTML can be embedded in Markdown. There's no need to preface it or delimit it to indicate that you're switching from Markdown to HTML
-> 
+> HTML can be embedded in Markdown. There's no need to preface it or delimit it to indicate that you're switching from Markdown to HTML
+
+> Material MkDocs has configuration options to support CCS and JavaScript.
+
+
 ---

@@ -59,7 +59,6 @@ nav:
     - Design Team: team_design.md
     - Development Team:
       - Website Development: team_develop.md
-
       - Development Tools: development_tools.md
       - Programming: programming.md
     - Deploy Team: team_deploy.md

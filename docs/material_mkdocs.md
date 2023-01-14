@@ -7,7 +7,7 @@
 
 Creating websites using the standard HTML, CSS, and JavaScript web browser requires developers who know these languages and are able to use them. Creating websites with MkDocs only requires knowing Markdown, not a strict foreign language
 
-Markdown is intended to be as easy-to-read and easy-to-write.
+[Markdown](markdown/#markdown.md) is intended to be as easy-to-read and easy-to-write.
 
 Readability is emphasized. A Markdown-formatted document can be publishable as plain text.
 
