@@ -6,11 +6,6 @@ site_name: John Telford - mkdocs
 theme:
     
   name: material
-  custom_dir: overrides
-
-  repo_url: https://github.com/JohnTelford/mkdocs.git
-  repo_name: mkdocs-dev
-
 
   features:
     - navigation.instant
@@ -19,6 +14,7 @@ theme:
     - navigation.expand
     - navigation.tracking
     - toc.follow
+    - toc.integrate
     - header.autohide
 
   palette:
