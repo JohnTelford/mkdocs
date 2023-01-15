@@ -1,6 +1,3 @@
----
-title: Iterative Website Development
----
 
 !!! Abstract 
 
@@ -66,22 +63,20 @@ flowchart TB
 
 The Iterative Development teams use the Iterative Website Development Stack technologies
 
-- The core technologies of Iterative WebsiteDevelopment are [Git](), [GitHub](dev_stack_details#github-details) central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
-
-The core technologies of Iterative Development are [Git](dev_stack_details#git), GitHub, and the Central Website Repository controlled by the project gatekeeper, and a Content Delivery Network (CDN), like Cloudflare, deploying Private Preview Internet websites, production websites, and individual team members Private Preview websites.
+- The core technologies are [VScode](), [Git](), [GitHub](dev_stack_details#github-details) central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
 
 
 #### Team Developers 
 
 - Local Website Repository   
-	Each team developer has their own Local Website Repository that can be updated from the Central Website Repository. Team members cannot update the Central Web Repository directly. They submit their changes. The approved changes by the project gatekeeper are added to the Central Website Repository. Team members can then update their Local Website Repository.
+	Each team developer has their own Local Website Repository that can be updated from the Central Website Repository. Team members cannot update the Central Web Repository directly. They submit their changes. The approved changes by the project gatekeeper are added to the Central Website Repository. Team members can then update their Local Website Repositories.
 
 - VScode   
-	Developers use [VSCode](vscode.md) as their Web Development Stack Command and Control center. They use it to edit code using their Local Website Repository, commit changes to the Central Website Repository, refresh their Local Website Repository, and deploy Private Preview Internet websites for themselves and stake holders to view and give feedback
+	Developers use [VSCode](vscode.md) as their Web Development Stack Command and Control center. They use it to edit code using their Local Website Repository, commit changes to the Central Website Repository, refresh their Local Website Repository, and deploy [Preview](preview.md) Internet for themselves and stakeholders to view and give feedback
 
 #### GitHub
 
-GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
+[GitHub](github.md) is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
 
 The Central Website Repository is managed by a team member project gatekeeper with help from other team members
 
@@ -89,16 +84,13 @@ The Central Website Repository is managed by a team member project gatekeeper wi
 
 #### MkDocs Material - Static Site Generator
 
-Is a Static Site Generator used to build a website from Repository to create:
+Is a Static Site Generator used to build a website from a repository to create:
   
-  - A Local [Preview](preview.md) Website for the developer
+  - Developers use it and their local repository to [Preview](preview.md) how features, fixes, experimental ideal, they are working on will possible look on the website
 
-  - The Production Website deployed to the Internet
+  - Content Delivery network(CDN) uses it create [Preview](preview.md)Stake Holders 
 
-
-  - Stake Holders Private Preview Website  
-
-It is also used by the Content Delivery network(CDN) do build and deploy the production website from the Central Repository
+It is also used by the  do build and deploy the production website from the Central Repository
 
 
 
