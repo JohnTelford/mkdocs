@@ -6,9 +6,9 @@ title: Development Tools
 
 ![vscodelogo](/img/vscodelogo.png){ width="75" }
 
-[Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product.
+[Visual Studio Code](https://code.visualstudio.com) commonly know as VScode, is a Microsoft product that has become the goto editor for many.It is a code editor redefined and optimized for building and debugging modern web and cloud applications. It is free, built on open source, and runs everywhere. Developer surveys show VScode is ranked the most popular developer environment tool 
 
-It has become the goto editor for many. It is free, built on open source, and runs everywhere.
+Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [git](git-github.md#git)
 
 [VScode](#vscode) is the command and control center for the website development stack.
 
@@ -48,8 +48,14 @@ Provide rainbow colors for the round brackets, the square brackets and the squig
 - Todo Tree  
 This extension quickly searches the local repository workspace for comment tags like TODO and FIXME, and displays them in a tree view in the activity bar
 
-- [VScode](#vscode)-icons  
+- VScode icons  
 Icons for Visual Studio Code
+
+### Use Git version-control tools in Visual Studio Code
+
+[Use Git version-control tools in Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/)
+
+
 
 #### Git Client
 

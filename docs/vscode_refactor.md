@@ -1,29 +1,14 @@
+## VScode 
 
+![vscodelogo](/img/vscodelogo.png){ width="75" }
 
-<!-- <img src="/img/vscodelogo.png" width="100"/> -->
-
-![vscodelogo](/img/vscodelogo.png){ width="100"}
-
-<!-- !!!info
-<!-- [Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product. -->
-
-
-
-<!-- It has become the goto editor for many. It is free, built on open source, and runs everywhere. -->
-
-Visual Studio Code is a Microsoft product and commonly referred to as VS Code. It is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on platforms Linux, macOS, and Windows. Developer surveys show VScode is ranked the most popular developer environment tool 
+[Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product and commonly referred to as VS Code. It is a code editor redefined and optimized for building and debugging modern software products, web and cloud applications. VCcode is free and available on  Linux, macOS, and Windows platforms. Developer surveys show VScode is ranked the most popular developer environment tool 
 
 Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [git](git-github.md#git)
-
-Developer surveys show Visual Studio Code is ranked the most popular developer environment tool 
-
-
-### Use Git version-control tools in Visual Studio Code
 
 [Use Git version-control tools in Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/)
 
 >Utilize the tight integration of Visual Studio Code with the Git source-control management system.
-Learning objectives
 
 >Perform common GitHub tasks by using the Command Palette in Visual Studio.
 
@@ -31,25 +16,26 @@ Learning objectives
 
 >Commit your files to your repositories from the Source Control view
 
-[Introduction Videos](https://code.visualstudio.com/docs/getstarted/introvideos)
 
-[VScode - Details](dev_stack_details/#vscode) is the command and control center for the website development stack.
+`VScode`is the command and control center for the website development stack.
 
 The development command and control tasks are:
 
-- Editing Markdown web programming materials
-- Use [GitHub and Git - Details](dev_stack_details/#github-and-git-details). `Git` is built-in and optimized to work with Microsoft `GitHub`
+- Editing Markdown and Markdown web programming materials
+- Use [git](#git) and [GitHub](#github) commands to manage project files. [Git](#git) is built-in and optimized to work with Microsoft [GitHub](#github)
 - Editor tool extensions continually check for syntax and other errors
 - Live edit browser previews show how edits will look when deployed
-- Deploy [Preview](preview.md), using [Mkdocs](material_mkdocs.md),  for stakeholders
-- Deploy production website to the Internet
 - Built-in command shell
+  - Use the built-in command shell
+  - Use the Built-in command shell Deploy secure [preview](preview.md) to the Internet using [MkDocs](material_mkdocs.md) for stakeholders
+- Deploy production website to the Internet
 - And **much** more
 
 ### Extensions
 
-Some useful extensions are:
+Some useful extensions available at the [VScode Marketplace](https://marketplace.visualstudio.com/VSCode)are:
 
+- Git Graph
 - Dark+ Material.  
 The default Dark+ theme, using Material's color palette
 
@@ -92,3 +78,6 @@ Alternatives to using built-in [VScode](#vscode) [git]() commands is to use the 
 
 ---
 
+### References
+
+- [Introduction Videos](https://code.visualstudio.com/docs/getstarted/introvideos)
