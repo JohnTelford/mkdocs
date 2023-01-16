@@ -2,7 +2,7 @@
 
 ![vscodelogo](/img/vscodelogo.png){ width="75" }
 
-[Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product and commonly referred to as VS Code. It is a code editor redefined and optimized for building and debugging modern software products, web and cloud applications. VCcode is free and available on  Linux, macOS, and Windows platforms. Developer surveys show VScode is ranked the most popular developer environment tool 
+[Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product and commonly referred to as VS Code. It is a code editor redefined and optimized for building and debugging modern software products, web, and cloud applications. VCcode is free and available on  Linux, macOS, and Windows platforms. Developer surveys show VScode is ranked the most popular developer environment tool 
 
 Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [git](git-github.md#git)
 
@@ -17,29 +17,31 @@ Features include support for debugging, syntax highlighting, intelligent code co
 >Commit your files to your repositories from the Source Control view
 
 
-`VScode`is the command and control center for the website development stack.
+VScode is the command and control center for the website development stack.
 
 The development command and control tasks are:
 
-- Editing Markdown and Markdown web programming materials
+- Editing Markdown web programming materials
 - Use [git](#git) and [GitHub](#github) commands to manage project files. [Git](#git) is built-in and optimized to work with Microsoft [GitHub](#github)
-- Editor tool extensions continually check for syntax and other errors
-- Live edit browser previews show how edits will look when deployed
+- Some VScode extensions continually check for syntax and other errors
+- Live edit browser previews show how edits will looks on a web page
 - Built-in command shell
-  - Use the built-in command shell
-  - Use the Built-in command shell Deploy secure [preview](preview.md) to the Internet using [MkDocs](material_mkdocs.md) for stakeholders
+  - Run [MkDocs](material_mkdocs.md) to create a local workstation website
+  - Use the Built-in command shell Deploy secure [preview](preview.md) to the Internet using  for stakeholders
 - Deploy production website to the Internet
 - And **much** more
 
 ### Extensions
 
-Some useful extensions available at the [VScode Marketplace](https://marketplace.visualstudio.com/VSCode)are:
+Some useful extensions available at the [VScode Marketplace](https://marketplace.visualstudio.com/VSCode) are:
 
-- Git Graph
+- Git Graph  
+View a Git Graph of your repository, and easily perform Git actions from the graph
+
 - Dark+ Material.  
 The default Dark+ theme, using Material's color palette
 
-- [GitHub](#github) Repositories.  
+- GitHub Repositories.  
 Remotely browse and edit any [GitHub](#github) repository
 
 - Lorem Text Generator  
@@ -57,9 +59,9 @@ This extension quickly searches the local repository workspace for comment tags 
 - [VScode](#vscode)-icons  
 Icons for Visual Studio Code
 
-#### Git Client
+### VScode Git Client
 
-[VScode](#vscode) built-in git commands :
+Vscode built-in git commands :
 
  - Review diffs, 
  - Stage files
@@ -68,13 +70,15 @@ Icons for Visual Studio Code
  - pull
  - and more
 
-## Git Desktop
+### Other Git Clients
 
 ![Git Desk Top](/img/gitdesktop.png)
 
-Alternatives to using built-in [VScode](#vscode) [git]() commands is to use the built in terminal or [GitHub Desktop](https://docs.github.com/en/desktop). It abstract [Github](#github) and more [Git](#git) commands. It interacts with GitHub using a GUI instead of the command line or a web browser. 
+Alternatives to using built-in VScode `git` commands is to use the built in terminal or [GitHub Desktop](https://docs.github.com/en/desktop) that abstract `gitHub` and with more `git` commands. It interacts with `GitHub` using a GUI instead of the command line or a web browser. 
 
-[GitHub Desktop and VSCode](http://www.rodanthi-alexiou.com/github-101-github-desktop-and-vscode/) documents how to use GitHub Desktop with [VScode](#vscode). 
+[GitHub Desktop and VSCode](http://www.rodanthi-alexiou.com/github-101-github-desktop-and-vscode/) documents how to use GitHub Desktop with VScode. 
+
+[GUI Clients](https://git-scm.com/downloads/guis)
 
 ---
 
