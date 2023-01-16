@@ -6,7 +6,7 @@
 
 ---
 
-#### To Do
+#### Site To Do
   - [ ] setup website
       - [ ] Create
       - [ ] Deployment
@@ -28,6 +28,28 @@
     - [ ] mkdocs root dir `runtime.txt` Python version 3.7  
     - [ ] Environment variables:  
          - [ ] Variable name: `ZOLA_VERSION` value: 0.13.0
+         - [ ] 
+### Page To Do
+
+- [ ] use different media for checking
+- [ ] Security
+- [ ] VScode - tidy
+- [ ] preview -add
+- [ ] github - tidy
+- [ ] git - add
+- [ ] dev stack details - tidy
+- [ ] teams - tidy
+- [ ] defect remediation - add
+- [ ] hype curve - add
+    - [ ] hype guesstimates -add
+- [ ] development tools -add
+- [ ] placement of defect notice
+- [x] site notes - add
+    - [ ] site notes - tidy
+- [ ] etc menu
+    - [ ] minimum_viable_product -add
+- [ ] search
+- [ ] 
 
 ---
 

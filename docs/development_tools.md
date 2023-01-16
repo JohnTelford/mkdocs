@@ -18,7 +18,7 @@ The development command and control tasks are:
 - Use [git](#git) and [GitHub](#github) to manage project files. [Git](#git) is built-in and optimized to work with Microsoft [GitHub](#github)
 - Editor tool extensions continually check for syntax and other errors
 - Live edit browser previews show how edits will look when deployed
-- Deploy secure website previews to the Internet for stakeholders
+<!-- - Deploy secure [preview](preview.md) to the Internet using [MkDocs](material_mkdocs.md) for stakeholders -->
 - Deploy production website to the Internet
 - Built-in command shell
 - And **much** more
@@ -233,3 +233,6 @@ If edits have been made to files the local repository, use ChronoSync to synchro
 
 !!! Danger "Defects"
 	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 
+
+
+[def]: material_
