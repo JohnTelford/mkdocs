@@ -8,14 +8,16 @@ theme:
   name: material
 
   features:
+    - header.autohide
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.tracking
+    - search.highlight
+    - search.suggest
     - toc.follow
     - toc.integrate
-    - header.autohide
 
   palette:
 
@@ -60,60 +62,16 @@ nav:
     - Company: company.md
     - Contact: contact.md
 
-  - Etc:
+  - Site Notes:
     - Site Ops: site_ops.md
     - Minimum Viable Product: minimum_viable_product.md
     - Defect Remediation Costs​: defect_remediation_cost.md
 
-  # - Teams:
-  #   - Teams Overview: team_overview.md
-  #   - Define Team: team_define.md
-  #   - Design Team: team_design.md
-  #   - Development Team:
-  #     - Website Development: team_develop.md
-  #     - Development Stack:
-  #       - Dev Stack Overview: website_dev_stack.md
-  #       - Dev Stack Details: dev_stack_details.md
-  #     - Development Tools: development_tools.md
-  #     - Programming: programming.md
-  #     - Workstations: workstations.md
-  #   - Deploy Team: team_deploy.md
-  #   - Maintenance Team: team_maintenance.md
-
-
-  # - Technology:
-  #   - Version Control System:
-  #     - What is Git and GitHub: https://www.w3schools.com/git/default.asp
-  #     - GitHub: https://github.com/
-  #     - Git: https://git-scm.com/
-  #   - Website Development:
-  #     - MkDocs: https://www.mkdocs.org
-  #     - Materials for MkDocs: https://squidfunk.github.io/mkdocs-material/
-  # - Site Notes: 
-  #   - Remediation: remediation.md
-  #   - Glossary: glossary.md
-
-  # - Hype:
-  #   - Hype Curve: hype_curve.md
-  #   - Hype Guesstimates: hype_guesstimates.md
-
-#       - Development Tools:
-#         # - developmenttools.md
-#         - vscode.md
-
-#       - Programming:  
-#         - programming.md
-
-#       - workstations.md
-#       - material.md
-
-#   - Company:
-#     - About: company.md
-#     - Contact: contact.md
-
 plugins:
   - git-revision-date-localized:
       enable_creation_date: false
+  - search:
+      lang: en
       
 markdown_extensions:
   - admonition
@@ -138,6 +96,3 @@ markdown_extensions:
 dev_addr: localhost:8000
 
 copyright: Copyright &copy; 2022 John Telford
-
-
-site_url: https://localhost:8000
