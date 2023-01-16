@@ -1,6 +1,3 @@
----
-title :Contact
----
 
 !!! info
     - A labyrinth symbolizes possible difficulties reaching website project goals. 

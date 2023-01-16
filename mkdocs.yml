@@ -6,6 +6,7 @@ site_name: John Telford - mkdocs
 theme:
     
   name: material
+<<<<<<< HEAD
 
   repo_url: https://github.com/JohnTelford/mkdocs
   repo_name: JohnTelford/mkdocs
@@ -15,6 +16,11 @@ theme:
     - content.action.view
     - header.autohide
     - navigation.expand
+=======
+
+  features:
+    - header.autohide
+>>>>>>> dev
     - navigation.instant
     - navigation.sections
     - navigation.tabs
@@ -23,6 +29,10 @@ theme:
     - navigation.tracking
     - search.highlight
     - search.suggest
+<<<<<<< HEAD
+=======
+    - toc.follow
+>>>>>>> dev
     - toc.integrate
 
   palette:
@@ -68,17 +78,26 @@ nav:
     - Company: company.md
     - Contact: contact.md
 
-  - Etc:
+  - Site Notes:
     - Site Ops: site_ops.md
     - Minimum Viable Product: minimum_viable_product.md
     - Defect Remediation Costs​: defect_remediation_cost.md
 
+<<<<<<< HEAD
 
 plugins:
   - git-revision-date-localized:
       type: timeago
   - search:
 
+=======
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: false
+  - search:
+      lang: en
+      
+>>>>>>> dev
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -101,6 +120,10 @@ markdown_extensions:
 
 dev_addr: localhost:8000
 
+<<<<<<< HEAD
 copyright: Copyright &copy; 2022 - 2023 John Telford
 
 site_url: https://localhost:8000
+=======
+copyright: Copyright &copy; 2022 John Telford
+>>>>>>> dev

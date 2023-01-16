@@ -2,7 +2,12 @@
 
 ### Material MkDocs - MkDocs
 
-[Material MkDocs](https://squidfunk.github.io/mkdocs-material/) is a theme for [MkDocs](https://www.mkdocs.org/) and adds Python Markdown extensions. It is a static website generator compiling
+[Material MkDocs](https://squidfunk.github.io/mkdocs-material/) is static website generator and a theme for [MkDocs](https://www.mkdocs.org/) and adds Python Markdown extensions. It is a  compiling
+
+There are many staticc website generator[Alternatives](https://squidfunk.github.io/mkdocs-material/alternatives/). I have experience with all of them on the list.
+
+The [Philosophy of Material](https://squidfunk.github.io/mkdocs-material/philosophy/) are the Design Principles
+
 [Markdown](markdown.md) source files into standard HTML, CSS, and JavaScript web browser languages files, and places them on an internal MkDocs web server.  Developers use the workstation browser to access the MkDocs web server, to see how their project will look on the Internet.
 
 Creating websites using the standard HTML, CSS, and JavaScript web browser requires developers who know these languages and are able to use them. Creating websites with MkDocs only requires knowing Markdown, not a strict foreign language
@@ -17,7 +22,7 @@ The compiling process can also be done by a Content Delivery Network using MkDoc
 
 What the developer sees on the workstation is exactly what the Content Delivery Network delivers to the Internet.
 
-Configuring the Content Delivery Network enables developers to frequently deploy their work to private Previews website for stakeholders, interested parties, and other Teams to see their work and provide feedback.
+Configuring the Content Delivery Network enables developers to frequently deploy their work to private [Previews](preview.md) website for stakeholders, interested parties, and other Teams to see their work and provide feedback.
 
 
 

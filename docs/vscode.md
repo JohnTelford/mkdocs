@@ -29,7 +29,7 @@ The development command and control tasks are:
 - Use [GitHub and Git - Details](dev_stack_details/#github-and-git-details). `Git` is built-in and optimized to work with Microsoft `GitHub`
 - Editor tool extensions continually check for syntax and other errors
 - Live edit browser previews show how edits will look when deployed
-- Deploy secure website previews to the Internet for stakeholders
+- Deploy [Preview](preview.md), using [Mkdocs](material_mkdocs.md),  for stakeholders
 - Deploy production website to the Internet
 - Built-in command shell
 - And **much** more
