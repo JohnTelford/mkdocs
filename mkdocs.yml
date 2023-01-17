@@ -66,7 +66,7 @@ nav:
   - Site Notes:
     - Site Ops: site_ops.md
     - Minimum Viable Product: minimum_viable_product.md
-    - Defect Remediation Costs​: defect_remediation_cost.md
+    - Defect Remediation: defect_remediation_cost.md
 
 plugins:
     - search:
