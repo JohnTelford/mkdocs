@@ -70,9 +70,9 @@ nav:
 
 plugins:
     - search:
-      lang: en
-    # - git-revision-date-localized:
-    #   type: date
+      # lang: en
+    - git-revision-date-localized:
+      # type: date
       
 markdown_extensions:
   - admonition
