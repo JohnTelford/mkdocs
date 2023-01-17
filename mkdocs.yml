@@ -71,8 +71,8 @@ nav:
 plugins:
     - search:
       lang: en
-    - git-revision-date-localized:
-      type: date
+    # - git-revision-date-localized:
+    #   type: date
       
 markdown_extensions:
   - admonition
