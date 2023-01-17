@@ -946,19 +946,33 @@
     MkDocs
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="MkDocs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#pip" class="md-nav__link">
     Pip
   </a>
   
-    <nav class="md-nav" aria-label="Pip">
-      <ul class="md-nav__list">
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-install-pip" class="md-nav__link">
+    python install pip
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#create-a-mkdocs-site" class="md-nav__link">
     Create a mkdocs site
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#date-localized" class="md-nav__link">
+    date-localized
   </a>
   
 </li>
@@ -1092,25 +1106,23 @@
 <ul class="task-list">
 <li class="task-list-item"><input type="checkbox"/> use different media for checking</li>
 <li class="task-list-item"><input type="checkbox"/> Security</li>
-<li class="task-list-item"><input type="checkbox"/> VScode - tidy</li>
-<li class="task-list-item"><input type="checkbox"/> preview -add</li>
+<li class="task-list-item"><input type="checkbox" checked/> VScode - tidy</li>
+<li class="task-list-item"><input type="checkbox" checked/> preview -add</li>
 <li class="task-list-item"><input type="checkbox"/> github - tidy</li>
 <li class="task-list-item"><input type="checkbox"/> git - add</li>
 <li class="task-list-item"><input type="checkbox"/> dev stack details - tidy</li>
 <li class="task-list-item"><input type="checkbox"/> teams - tidy</li>
 <li class="task-list-item"><input type="checkbox"/> defect remediation - add</li>
-<li class="task-list-item"><input type="checkbox"/> hype curve - add<ul class="task-list">
-<li class="task-list-item"><input type="checkbox"/> hype guesstimates -add</li>
+<li class="task-list-item"><input type="checkbox" checked/> hype curve - add<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" checked/> hype guesstimates -add</li>
 </ul>
 </li>
 <li class="task-list-item"><input type="checkbox"/> development tools -add</li>
 <li class="task-list-item"><input type="checkbox"/> placement of defect notice</li>
 <li class="task-list-item"><input type="checkbox" checked/> site notes - add<ul class="task-list">
 <li class="task-list-item"><input type="checkbox"/> site notes - tidy</li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox"/> etc menu<ul class="task-list">
-<li class="task-list-item"><input type="checkbox"/> minimum_viable_product -add</li>
+<li class="task-list-item"><input type="checkbox" checked/> menu</li>
+<li class="task-list-item"><input type="checkbox" checked/> minimum_viable_product -add</li>
 </ul>
 </li>
 <li class="task-list-item"><input type="checkbox"/> search</li>
@@ -1118,22 +1130,24 @@
 </ul>
 <hr />
 <h3 id="mkdocs">MkDocs</h3>
-<h3 id="pip">Pip</h3>
-<p>python install pip
-pip3 install --upgrade pip</p>
+<h4 id="pip">Pip</h4>
+<h4 id="python-install-pip">python install pip</h4>
+<ul>
+<li><code>pip3 install --upgrade pip</code></li>
+</ul>
 <h4 id="create-a-mkdocs-site">Create a mkdocs site</h4>
 <ul>
 <li><code>pip3 install mkdocs-material</code></li>
 <li><code>pip mkdocs new .</code>  </li>
 </ul>
-<p>pip install mkdocs-git-revision-date-localized-plugin</p>
+<h4 id="date-localized">date-localized</h4>
+<p><code>pip install mkdocs-git-revision-date-localized-plugin</code></p>
 <h4 id="upgrade-to-the-latest-version">Upgrade to the latest version</h4>
 <p>Show the currently installed version with:</p>
 <ul>
 <li><code>pip show mkdocs-material</code></li>
 <li><code>pip install --upgrade --force-reinstall mkdocs-material</code></li>
 </ul>
-<p>pip3 install nbconvert</p>
 <h4 id="plugins">plugins</h4>
 <ul>
 <li><a href="https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates">Document Dates</a></li>
@@ -1145,7 +1159,7 @@ pip3 install --upgrade pip</p>
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 16, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 17, 2023</span>
       
     
   </small>
