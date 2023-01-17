@@ -33,21 +33,21 @@
 
 - [ ] use different media for checking
 - [ ] Security
-- [ ] VScode - tidy
-- [ ] preview -add
+- [x] VScode - tidy
+- [x] preview -add
 - [ ] github - tidy
 - [ ] git - add
 - [ ] dev stack details - tidy
 - [ ] teams - tidy
 - [ ] defect remediation - add
-- [ ] hype curve - add
-    - [ ] hype guesstimates -add
+- [x] hype curve - add
+    - [x] hype guesstimates -add
 - [ ] development tools -add
 - [ ] placement of defect notice
 - [x] site notes - add
     - [ ] site notes - tidy
-- [ ] etc menu
-    - [ ] minimum_viable_product -add
+    - [x]  menu
+    - [x] minimum_viable_product -add
 - [ ] search
 - [ ] 
 
@@ -55,27 +55,30 @@
 
 ### MkDocs
 
+#### Pip
+
+#### python install pip
+
+- `pip3 install --upgrade pip`
+
 #### Create a mkdocs site
 
   -  `pip3 install mkdocs-material`
   -  `pip mkdocs new .`  
-  
-#### Upgrade Material MkDocs
 
-Upgrade to the latest version with:
+#### date-localized
 
--  `pip install --upgrade --force-reinstall mkdocs-material`
+`pip install mkdocs-git-revision-date-localized-plugin`
+
+#### Upgrade to the latest version 
 
 Show the currently installed version with:
 
 -  `pip show mkdocs-material`
-
----
+-  `pip install --upgrade --force-reinstall mkdocs-material`
 
 #### plugins
 
 - [Document Dates](https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates)
-
----
 
 ---

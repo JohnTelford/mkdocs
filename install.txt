@@ -1,0 +1,345 @@
+    5  cargo install nhl-235
+    6  sudo cargo install nhl-235
+   10  cargo uninstall nhl-235
+   91  npm install
+  129  npm install --save react react-dom next
+  143  npm install --save @zeit/next-sass node-sass
+  147  npm uninstall node-sass
+  153  yarn install  @fortawesome/fontawesome-svg-core \\n  @fortawesome/free-solid-svg-icons \\n  @fortawesome/react-fontawesome\n
+  175  yarn install @next/mdx
+  198  brew install rename
+  201  brew install --HEAD multimarkdown
+  253  port install tree
+  254  sudo port install tree
+  255  brew uninstall tree
+  256  brew uninstall broot
+  258  brew uninstall gawk
+  259  brew uninstall git
+  261  sudo port install exa
+  262  brew uninstall exa
+  265  sudo port install procs
+  266  brew uninstall pandoc procs
+  271  sudo port install gitui
+  272  brew uninstall gitui
+  285  sudo port install multimarkdown
+  288  sudo port install rename
+  293  sudo port installed
+  294  sudo port install gnu-sed
+  300  brew uninstall brew
+  301  brew uninstall homebrew
+  302  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/uninstall/HEAD/install.sh)"
+  306  sudo port install gsed
+  309  sudo port install docutil
+  310  sudo port install dockutil
+  313  sudo port install antigen
+  326  npm install next-mdx-enhanced
+  327  npm uninstall next-mdx-enhanced
+  481  sudo port install HTTPie
+  484  sudo port uninstall httpie
+  485  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  486  sudo port install httpie
+  490  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+  534  npm uninstall -D tailwindcss@latest postcss@latest autoprefixer@latest
+  535  npm uninstall tailwindcss postcss autoprefixer
+  536  npm uninstall tailwindcss
+  537  yarn install tailwind
+  553  npm install -g npm@7.24.2
+  554  sudo npm install -g npm@7.24.2
+  596  cargo install markdown-toc
+  597  sudo cargo install markdown-toc
+  694  npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+  733  npm install -D tailwindcss@latest postcss@latest autoprefixer@latest\n
+  734  yarn npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+  826  sudo port install hub
+ 1106  port install mdx-deck
+ 1108  sudo port install mdx-deck
+ 1110  yarn install -D mdx-deck
+ 1225  npm install -g npm@8.3.0
+ 1226  sudo npm install -g npm@8.3.0
+ 1240  cargo install nu
+ 1241  sudo cargo install nu
+ 1264  sudo cargo install mdbook-linkcheck
+ 1276  cargo uninstall mdbook-linkcheck
+ 1277  cargo uninstall mdbook-mermaid
+ 1320  cargo install mdbook-mermaid
+ 1321  sudo cargo install mdbook-mermaid
+ 1322  mdbook-mermaid install book
+ 1323  mdbook-mermaid install ./book
+ 1324  mdbook-mermain install
+ 1334  sudo cargo uninstall mdbook-mermaid
+ 1348  mdbook-mermaid install .
+ 1356  mdbook-mermaid install
+ 1425  sudo cargo --force install mdbook-theme
+ 1426  sudo cargo install --force  mdbook-theme
+ 1495  sudo port install nmap
+ 1565  npm install remark-math
+ 1566  yarn install remark-math
+ 1666  mdbook-admonish install ./book
+ 1669  ls /tmp/cargo-installY71i9M
+ 1670  cd /tmp/cargo-installY71i9M
+ 1678  sudo cargo install-update -a
+ 1681  sudo cargo install-update *
+ 1686  sudo port install mdbook
+ 1687  cargo sudo install mdbook-admonish
+ 1688  sudo cargo install mdbook-auto-gen-summary
+ 1701  npm install single-page-markdown-website
+ 1704  sudo port install single-page-markdown-website
+ 1706  yarn install npx --yes -- single-page-markdown-website
+ 1714  npx create-docusaurus@2.0.0-beta.15 blog classic --skip-install
+ 1736  sudo port install yarn
+ 1740  install
+ 1741  yarn install
+ 1742  yarn install v1.22.4
+ 1786  cargo install mdbook_admonish
+ 1787  sudo cargo install mdbook_admonish
+ 1788  cargo install mdbook-admonish
+ 1789  sudo cargo install mdbook-admonish
+ 1849  mdbook-admonish install
+ 1850  cargo install mdbook-toc
+ 1851  sudo cargo install mdbook-toc
+ 1853  sudo cargo install mdbook-newday
+ 1870  sudo cargo install did
+ 1871  did "installed did"
+ 1881  cargo uninstall mdbook-newday
+ 1890  cargo install --git https://github.com/rust-lang/mdBook.git mdbook
+ 1891  sudocargo install --git https://github.com/rust-lang/mdBook.git mdbook
+ 1892  sudo cargo install --git https://github.com/rust-lang/mdBook.git mdbook
+ 1967  sudo port install db4s
+ 1968  sudo port install DB4S
+ 1969  sudo port install db-browser-for-sqlite
+ 2150  sudo port install broot
+ 2189  sudo port install regex101
+ 2191  sudo port install gitk
+ 2192  port install git-gui
+ 2193  sudo port install git-gui
+ 2194  sudo port install GitHub
+ 2219  sudo cargo install sd
+ 2260  sudo cargo uninstall mdbook-theme
+ 2261  cargo install mdbook-theme
+ 2262  sudo cargo install mdbook-theme
+ 2268  cargo uninstall mdbook-theme
+ 2269  sudo cargo uninstall mdbook-theme
+ 2270  sudo cargo install mdbook-theme
+ 2667  mdbook-admonish install path/to/your/book
+ 2672  mdbook-admonish install path/to/your/book .
+ 2679  mdbook-admonish install path/to/your/book /Volumes/Dev/rbl/rbl-cloudflare
+ 2682  mdbook-admonish install ./book.html
+ 2683  mdbook-admonish install ./book.toml
+ 2684  mdbook-admonish install ./
+ 3104  sudo port install Czkawka
+ 3109  port install mac_czkawka_cli
+ 3110  sudo install mac_czkawka_cli
+ 3111  port install czkawka
+ 3112  sudo port install czkawka
+ 3113  cargo install czkawka_gui
+ 3114  sudo cargo install czkawka_gui
+ 3115  sudo cargo install czkawka_cli
+ 3116  sudo port install fclones
+ 3117  sudo cargo install fclones
+ 3133  sudo port install gh
+ 3202  sudo port install pandoc
+ 3412  sudo port install git
+ 3421  sudo port install npn
+ 3422  sudo port install npm
+ 3426  sudo port install node
+ 3427  sudo port install node.js
+ 3429  sudo port install nvm
+ 3493  npm install -g @devcontainers/cli
+ 3530  curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+ 3578  npm install --production
+ 3580  sudo port install dillinger
+ 3583  npm install -d
+ 3588  npm install --production
+ 3795  port -install macvim
+ 3800  port -install macvim
+ 3803  port installed inactive
+ 3804  sudo port install macvim
+ 3807  sudo port install vim
+ 3809  sudo port install macvim
+ 3812  sudo port uninstall macvim
+ 3813  sudo port install macvim
+ 3816  sudo port uninstall macvim
+ 3859  sudo port install neofetch
+ 3925  sudo port uninstall MacVim
+ 3931  port installed
+ 4377  sudo port install bottom
+ 4379  sudo port install btm
+ 4394  sudo port install sabnzb montor
+ 4416  sudo port install apple-pki-bundle
+ 4473  port install excalidraw
+ 4474  sudo port install excalidraw
+ 4489  yarn install babel-loader": "8.1.0
+ 4494  npm install  "babel-loader": "8.1.0"
+ 4495  npm install  babel-loader:8.1.0
+ 4496  npm install bable-loader
+ 4722  npm install eslint
+ 4790  sudo port install gawk
+ 4902  pip3 install PyGithub requests
+ 4907  pip3 install PyGithub requests
+ 4908  /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8 -m pip install --upgrade pip
+ 4909  pip3 install PyGithub requests
+ 4925  pip install jupyterlab
+ 4926  sudo pip install jupyterlab
+ 4927  sudo pip install notebook
+ 4945  pip install PyGithub requests
+ 4947  pip install PyGithub
+ 4948  pip uninstall PyGithub
+ 4950  pip3 install PyGithub
+ 4955  pip install jupyterlab
+ 4957  pip uninstall datetime
+ 4961  pip3 install PyGithub
+ 4982  pip install jupyterlib
+ 4983  sudo pip install jupyterlab
+ 4987  pip install jupyterlab-vim
+ 4988  sudo pip install jupyterlab-vim
+ 4990  /Volumes/Dev/Python/envBudget/bin/python -m pip install ipykernel -U --force-reinstall
+ 5119  python -m pip install notebook zsh_jupyter_kernel\npython -m zsh_jupyter_kernel.install --sys-prefix
+ 5120  sudo python -m pip install notebook zsh_jupyter_kernel
+ 5121  sudo python -m zsh_jupyter_kernel.install --sys-prefix
+ 5135  jupyter labextension install ipysheet
+ 5136  sudo jupyter labextension install ipysheet
+ 5138  /usr/local/bin/jupyter labextension install ipysheet
+ 5139  /usr/local/bin/jupyter-lab labextension install ipysheet
+ 5140  pip install jupyterlab-spreadsheet-editor
+ 5141  sudo pip install jupyterlab-spreadsheet-editor
+ 5142  sudo pip install ipysheet
+ 5155  pip install jupyterlab-spreadsheet-editor
+ 5160  pip uninstall jupyterlab-spreadsheet-editor
+ 5161  jupyter labextension install ipysheet
+ 5162  pip install notebook
+ 5164  jupyter labextension install ipysheet
+ 5165  sudo jupyter labextension install ipysheet
+ 5167  sudo jupyter labextension install ipysheet
+ 5169  pip install ipysheet
+ 5332  pip install notebook
+ 5479  /opt/local/bin/python3.10 -m pip install ipykernel -U --user --force-reinstall
+ 5507  sudo port install python
+ 5508  sudo port install Python
+ 5572  pip3 uninstall jupyter-lab
+ 5573  pip uninstall jupyter-lab
+ 5574  pip3 install jupyter-lab
+ 5575  pip3 install --upgrade pip
+ 5578  pip install jupyterlab
+ 5590  Running cells with 'Python 3.10.4 64-bit' requires ipykernel package.\n\nRun the following command to install 'ipykernel' into the Python environment. \n\nCommand: '/opt/local/bin/python3.10 -m pip install ipykernel -U --user --force-reinstall'Running cells with 'Python 3.10.4 64-bit' requires ipykernel package.\n\nRun the following command to install 'ipykernel' into the Python environment. \n\nCommand: '/opt/local/bin/python3.10 -m pip install ipykernel -U --user --force-reinstall'Running cells with 'Python 3.10.4 64-bit' requires ipykernel package.\n\nRun the following command to install 'ipykernel' into the Python environment. \n\nCommand: '/opt/local/bin/python3.10 -m pip install ipykernel -U --user --force-reinstall'Running cells with 'Python 3.10.4 64-bit' requires ipykernel package.\n\nRun the following command to install 'ipykernel' into the Python environment. \n\nCommand: '/opt/local/bin/python3.10 -m pip install ipykernel -U --user --force-reinstall'
+ 5592  pip install ipykernel -U --user --force-reinstall
+ 5600  pip install -e ".[test]"
+ 5606  /bin/python3.10 ~/.vscode/extensions/ms-python.python-2022.0.1786462952/pythonFiles/shell_exec.py /bin/python3.10 -m pip install -U notebook /tmp/tmp-5290PWIe78U4HgLu.log
+ 5628  pip install github-api-python
+ 5630  pip3 install PyGithub requests
+ 5654  python3.10 -m pip install ipykernel -U --user --force-reinstall
+ 5734  python3 -m pip install tvdb_v4_official
+ 5905  curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+ 5906  /bin/bash install.sh
+ 5909  brew install rustup
+ 5911  brew reinstall rustup-init
+ 5920  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 5931  conda install jupyterlab -c conda-forge
+ 5933  conda install ipykernel
+ 5934  python -m ipykernel install --user --name miniconda_test --display-name "minic_test"
+ 5955  conda install ipykernel
+ 5956  python -m ipykernel install --user --name miniconda_test --display-name “minic_testt”
+ 5977  conda install -c conda-forge jupyterlab
+ 6056  conda install numpy
+ 6057  conda install pandas
+ 6084  /opt/local/bin/python3.10 -m pip install ipykernel -U --user --force-reinstall
+ 6087  python -m pip install ipykernel -U --user --force-reinstall
+ 6091  pip3 install pipenv
+ 6095  pipenv install django
+ 6114  pipenv install dejango
+ 6115  pipenv install dejango==4.1.1
+ 6123  pipenv install django=4.1.1
+ 6133  pipenv install django==4.1.1
+ 6144  pipenv install django==2.1
+ 6146  pipenv install django
+ 6161  pip install pipenv
+ 6162  pipenv install django
+ 6163  pipenv install django==2.1
+ 6164  pipenv install django
+ 6174  pipenv install django
+ 6194  pipenv install django==4.1.1
+ 6655  /usr/local/bin/python -m pip install -U pylint
+ 6660  conda install -c anaconda nbconvert
+ 6671  conda install ipykernel
+ 6686  conda install -c anaconda nbconvert
+ 6692  conda install jupyterlab - conda-forge
+ 6699  conda install ipykernel
+ 6700  python -m ipykernel install --user --name jupyter --display-name "jupyter"
+ 6702  conda install -c anaconda nbconvert
+ 6842  pip3 install jupyterlab
+ 6871  /usr/local/bin/python -m pip install pip --upgrade
+ 6872  /usr/local/bin/python -m pip install pipenv
+ 6927  conda install anaconda-clean
+ 7058  python3 -m IPython kernelspec install-self
+ 7119  pip3 install nbconvert
+ 7389  pip3 install datetime
+ 7390  pip3 install numpy
+ 7391  pip3 install pandas
+ 7392  pip3 install re
+ 7393  pip3 install os
+ 7405  pip3 install gussit
+ 7406  pip3 install difflib
+ 7407  pip3 install difflib --user
+ 7408  pip3 install --upgrade pip3
+ 7409  pip3 install pip3
+ 7419  pip3 install mkdocs
+ 7420  pip3 install --upgrade pip
+ 7446  pip3 install nbconvert[webpdf]
+ 7447  pip3 install nbconvert
+ 7505  pip3 install mkdocs-material
+ 7540  pip3 install mkdocs-material
+ 7665  pip3 install mkdocs-material
+ 7668  pip3 install mkdocs-material
+ 7677  pip3 install guessit
+ 7678  pip3 install CMax
+ 7679  pip3 install --uptrade pip
+ 7680  pip install --upgrade pip
+ 7682  pip install CMax
+ 7777  npm install docusaurus package
+ 7840  yarn install --ignore-engines
+ 7854  pip install mike
+ 7856  pip install mike
+ 7867  pip install --upgrade mkdocs-material
+ 7897  pip install --upgrade mkdocs-material
+ 7898  pip3 install mkdocs-material
+ 7900  pip install mkdocs-material
+ 7907  pip install mkdocs-material
+ 7911  pip install -e mkdocs-material
+ 7914  pip install -e mkdocs-material
+ 7915  pip install -e mkdocs-material .
+ 7916  pip install mkdocs-material .
+ 7917  pip install setup.py
+ 7929  pip install mkdocs-material
+ 8416  pip install markdown-link-checker
+ 8418  pip uninstall markdown-link-checker
+ 8756  bin/python -m pip install -U pip setuptools wheel
+ 8757  bin/python -m pip install -U "Nikola[extras]"
+ 8844  sudo pip3 install pandoc
+ 8845  sudo -H pip3 install pandoc
+ 8846  pip3 install mactex
+ 8893  sudo port install MacTex
+ 8894  sudo port install MacTex.pkg
+ 8945  `installed <https://getnikola.com/getting-started.html>`
+ 8947  sudo port install nikola
+ 8949  pip3 install "Nikola[extras]"
+ 8955  pip3 install Nikola[extras]
+ 8956  pip3 install "Nikola[extras]"
+ 8959  pip3 install "Nikola[extras]"
+ 8967  bin/python -m pip install -U pip setuptools wheel
+ 8968  bin/python -m pip install -U "Nikola[extras]"
+ 8984  bin/python -m pip install -U pip setuptools wheel
+ 8985  bin/python -m pip install -U "Nikola[extras]"
+ 8997  git install
+ 9085  pip3 install mkdocs
+ 9135  pip install mkdocs-material
+ 9298  pip install --upgrade mkdocs-material
+ 9594  python install pip
+ 9599  pip3 install mkdocs-material
+ 9604  pip3 install mkdocs-material
+ 9619  pip3 install mkdocs-material
+ 9625  pip3 install mkdocs-material
+ 9795  pip install --upgrade --force-reinstall mkdocs-material
+ 9911  pip install mkdocs-git-revision-date-localized-plugin
+ 9988  pip install mkdocs-git-revision-date-localized-plugin
+10058  pip install git-revision-date-localized
+10059  pip install git-revision-date-localizer
+10060  pip install mkdocs-git-revision-date-localized-plugin

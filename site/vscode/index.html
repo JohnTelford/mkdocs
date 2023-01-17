@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#extensions" class="md-skip">
+        <a href="#vscode" class="md-skip">
           Skip to content
         </a>
       
@@ -449,29 +449,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#vscode" class="md-nav__link">
+    VScode
+  </a>
+  
+    <nav class="md-nav" aria-label="VScode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#extensions" class="md-nav__link">
     Extensions
   </a>
   
-    <nav class="md-nav" aria-label="Extensions">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#git-client" class="md-nav__link">
-    Git Client
+  <a href="#vscode-git-client" class="md-nav__link">
+    VScode Git Client
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-git-clients" class="md-nav__link">
+    Other Git Clients
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#git-desktop" class="md-nav__link">
-    Git Desktop
-  </a>
   
 </li>
       
@@ -1008,39 +1022,43 @@
 
   <h1>VScode</h1>
 
-<!-- <img src="/img/vscodelogo.png" width="100"/> -->
-
-<p><img alt="vscodelogo" src="/img/vscodelogo.png" width="100" /></p>
-<!-- !!!info
-<!-- [Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product. -->
-
-<!-- It has become the goto editor for many. It is free, built on open source, and runs everywhere. -->
-
-<p>Visual Studio Code is a Microsoft product and commonly referred to as VS Code. It is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on platforms Linux, macOS, and Windows.</p>
+<h2 id="vscode">VScode</h2>
+<p><img alt="vscodelogo" src="/img/vscodelogo.png" width="75" /></p>
+<p><a href="https://code.visualstudio.com">Visual Studio Code</a> (VScode) is a Microsoft product and commonly referred to as VS Code. It is a code editor redefined and optimized for building and debugging modern software products, web, and cloud applications. VCcode is free and available on  Linux, macOS, and Windows platforms. Developer surveys show VScode is ranked the most popular developer environment tool </p>
 <p>Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded <a href="../git-github/#git">git</a></p>
-<p>Developer surveys show Visual Studio Code is ranked the most popular developer environment tool </p>
-<p><a href="https://code.visualstudio.com/docs/getstarted/introvideos">Introduction Videos</a></p>
-<p><a href="dev_stack_details/#vscode">VScode - Details</a> is the command and control center for the website development stack.</p>
+<p><a href="https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/">Use Git version-control tools in Visual Studio Code</a></p>
+<blockquote>
+<p>Utilize the tight integration of Visual Studio Code with the Git source-control management system.</p>
+<p>Perform common GitHub tasks by using the Command Palette in Visual Studio.</p>
+<p>Monitor the status of your work</p>
+<p>Commit your files to your repositories from the Source Control view</p>
+</blockquote>
+<p>VScode is the command and control center for the website development stack.</p>
 <p>The development command and control tasks are:</p>
 <ul>
 <li>Editing Markdown web programming materials</li>
-<li>Use <a href="dev_stack_details/#github-and-git-details">GitHub and Git - Details</a>. <code>Git</code> is built-in and optimized to work with Microsoft <code>GitHub</code></li>
-<li>Editor tool extensions continually check for syntax and other errors</li>
-<li>Live edit browser previews show how edits will look when deployed</li>
-<li>Deploy <a href="../preview/">Preview</a>, using <a href="../material_mkdocs/">Mkdocs</a>,  for stakeholders</li>
-<li>Deploy production website to the Internet</li>
+<li>Use <a href="#git">git</a> and <a href="#github">GitHub</a> commands to manage project files. <a href="#git">Git</a> is built-in and optimized to work with Microsoft <a href="#github">GitHub</a></li>
+<li>Some VScode extensions continually check for syntax and other errors</li>
+<li>Live edit browser previews show how edits will looks on a web page</li>
 <li>Built-in command shell</li>
+<li>Run <a href="../material_mkdocs/">MkDocs</a> to create a local workstation website</li>
+<li>Use the Built-in command shell Deploy secure <a href="../preview/">preview</a> to the Internet using  for stakeholders</li>
+<li>Deploy production website to the Internet</li>
 <li>And <strong>much</strong> more</li>
 </ul>
 <h3 id="extensions">Extensions</h3>
-<p>Some useful extensions are:</p>
+<p>Some useful extensions available at the <a href="https://marketplace.visualstudio.com/VSCode">VScode Marketplace</a> are:</p>
 <ul>
+<li>
+<p>Git Graph<br />
+View a Git Graph of your repository, and easily perform Git actions from the graph</p>
+</li>
 <li>
 <p>Dark+ Material.<br />
 The default Dark+ theme, using Material's color palette</p>
 </li>
 <li>
-<p><a href="#github">GitHub</a> Repositories.<br />
+<p>GitHub Repositories.<br />
 Remotely browse and edit any <a href="#github">GitHub</a> repository</p>
 </li>
 <li>
@@ -1064,8 +1082,8 @@ This extension quickly searches the local repository workspace for comment tags 
 Icons for Visual Studio Code</p>
 </li>
 </ul>
-<h4 id="git-client">Git Client</h4>
-<p><a href="#vscode">VScode</a> built-in git commands :</p>
+<h3 id="vscode-git-client">VScode Git Client</h3>
+<p>Vscode built-in git commands :</p>
 <ul>
 <li>Review diffs, </li>
 <li>Stage files</li>
@@ -1074,11 +1092,16 @@ Icons for Visual Studio Code</p>
 <li>pull</li>
 <li>and more</li>
 </ul>
-<h2 id="git-desktop">Git Desktop</h2>
+<h3 id="other-git-clients">Other Git Clients</h3>
 <p><img alt="Git Desk Top" src="/img/gitdesktop.png" /></p>
-<p>Alternatives to using built-in <a href="#vscode">VScode</a> <a href="">git</a> commands is to use the built in terminal or <a href="https://docs.github.com/en/desktop">GitHub Desktop</a>. It abstract <a href="#github">Github</a> and more <a href="#git">Git</a> commands. It interacts with GitHub using a GUI instead of the command line or a web browser. </p>
-<p><a href="http://www.rodanthi-alexiou.com/github-101-github-desktop-and-vscode/">GitHub Desktop and VSCode</a> documents how to use GitHub Desktop with <a href="#vscode">VScode</a>. </p>
+<p>Alternatives to using built-in VScode <code>git</code> commands is to use the built in terminal or <a href="https://docs.github.com/en/desktop">GitHub Desktop</a> that abstract <code>gitHub</code> and with more <code>git</code> commands. It interacts with <code>GitHub</code> using a GUI instead of the command line or a web browser. </p>
+<p><a href="http://www.rodanthi-alexiou.com/github-101-github-desktop-and-vscode/">GitHub Desktop and VSCode</a> documents how to use GitHub Desktop with VScode. </p>
+<p><a href="https://git-scm.com/downloads/guis">GUI Clients</a></p>
 <hr />
+<h3 id="references">References</h3>
+<ul>
+<li><a href="https://code.visualstudio.com/docs/getstarted/introvideos">Introduction Videos</a></li>
+</ul>
 
   <hr>
 <div class="md-source-file">
