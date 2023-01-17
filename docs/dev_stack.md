@@ -37,13 +37,13 @@ flowchart TB
 
 	dev([Team Developers])
 
-	cdn([CDN - Deploy Website to Web])
+	cdn([CDN - Deploy Project to Web])
 
-	crepo([Central Website Repository])
+	crepo([Central Project Repository])
 
 	github([GitHub]) 
 
-	lrepo([Local Website Repository])
+	lrepo([Local Projet Repository])
 
 	lpreweb([Local Preview Website])
 
@@ -64,7 +64,7 @@ flowchart TB
 
 The Iterative Development teams use the Iterative Website Development Stack technologies
 
-- The core technologies are [VScode](), [Git](), [GitHub](dev_stack_details#github-details) central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
+- The core technologies are [VScode](), [Git](), [GitHub](dev_stack_details#github-details) and the *Central Project Repository* controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
 
 
 #### Team Developers 
@@ -75,11 +75,42 @@ The Iterative Development teams use the Iterative Website Development Stack tech
 - VScode   
 	Developers use [VSCode](vscode.md) as their Web Development Stack Command and Control center. They use it to edit code using their Local Website Repository, commit changes to the Central Website Repository, refresh their Local Website Repository, and deploy [Preview](preview.md) Internet for themselves and stakeholders to view and give feedback
 
+
+
+---
+
 #### GitHub
 
 [GitHub](github.md) is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
 
+#### GitHub Central Repository.  
+
+The core technologies of Iterative Development SCM are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+
+The Central Repository is managed my a team member
+
+---
+
 The Central Website Repository is managed by a team member project gatekeeper with help from other team members
+
+#### GitHub Workflow
+
+- GitHub workflow is centered on Pull Request The GitHub workflow works with collaborating team members contributing to the central project repository using the Forks. It is centered on the topic Branches workflow.
+
+A summary of GitHub workflow for each team member is:
+
+  1. [Fork](https://www.w3schools.com/git/git_remote_fork.asp?remote=github) the central project repository creating a local project repository in individual team members GitHub account
+  2. [Clone](https://www.w3schools.com/git/git_clone.asp?remote=github) the forked local project repository in team member GitHub account to workstation
+  3. Creates a topic Branch off the cloned local project repository *main* branch
+  4. Make topic edits and commits 
+  5. [Push](https://www.w3schools.com/git/git_push_to_remote.asp?remote=github) after each commit to the cloned local project repository in GitHub account
+  6. Periodically [Pull](https://www.w3schools.com/git/git_push_to_remote.asp?remote=github) from the central project repository. The *develop* branch will have merged accepted Pull Requests
+  7. Periodically deploy local project repository to a private [Preview ](preview.md) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
+  8. Open a Pull Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
+  9. Team members discuss, and optionally continue committing on Pull Requests.
+
+---
+
 
 - Reference [GitHub Details](dev_stack_details#github_details)
 
