@@ -69,10 +69,10 @@ nav:
     - Defect Remediation Costs​: defect_remediation_cost.md
 
 plugins:
-  - git-revision-date-localized:
-      type: date
-  - search:
+    - search:
       lang: en
+    - git-revision-date-localized:
+      type: date
       
 markdown_extensions:
   - admonition
