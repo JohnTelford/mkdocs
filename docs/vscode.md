@@ -2,9 +2,11 @@
 
 ![vscodelogo](/img/vscodelogo.png){ width="75" }
 
-[Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product and commonly referred to as VS Code. It is a code editor redefined and optimized for building and debugging modern software products, web, and cloud applications. VCcode is free and available on  Linux, macOS, and Windows platforms. Developer surveys show VScode is ranked the most popular developer environment tool 
+[Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product and commonly referred to as VScode. It is a code editor redefined and optimized for building and debugging modern software projects. VCcode is free and available on  Linux, macOS, and Windows platforms. Developer surveys show VScode is ranked the most popular developer environment tool 
 
 Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [git](git-github.md#git)
+
+### Git
 
 [Use Git version-control tools in Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/)
 
@@ -12,22 +14,23 @@ Features include support for debugging, syntax highlighting, intelligent code co
 
 >Perform common GitHub tasks by using the Command Palette in Visual Studio.
 
-> Monitor the status of your work
+> Monitor  status 
 
->Commit your files to your repositories from the Source Control view
+>Committing  files to the developers "Local Project Repository"
 
+VScode is the Command And Control center for the project development stack.
 
-VScode is the command and control center for the website development stack.
+The development Command And Control tasks are:
 
-The development command and control tasks are:
-
-- Editing Markdown web programming materials
+- Editing Markdown  programming materials
 - Use [git](#git) and [GitHub](#github) commands to manage project files. [Git](#git) is built-in and optimized to work with Microsoft [GitHub](#github)
 - Some VScode extensions continually check for syntax and other errors
 - Live edit browser previews show how edits will looks on a web page
 - Built-in command shell
   - Run [MkDocs](material_mkdocs.md) to create a local workstation website
-  - Use the Built-in command shell Deploy secure [preview](preview.md) to the Internet using  for stakeholders
+
+<!-- *DNC* -->
+- Use the Built-in command shell to create [preview](preview.md) to the Internet using  for stakeholders
 - Deploy production website to the Internet
 - And **much** more
 
