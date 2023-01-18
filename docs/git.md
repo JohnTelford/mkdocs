@@ -48,9 +48,13 @@ To use Git, developers use specific commands to copy, create, change, and combin
 
 `git push` updates the remote repository with any commits made locally to a branch.
 
-###it status
+### git status
 
 `git status` shows the status of changes as untracked, modified, or staged.
+
+### git switch
+
+`git switch` switch to a specified branch. The working tree and the index are updated to match the branch. All new commits will be added to the tip of this branch.
 
 ## Git References
 

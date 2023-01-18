@@ -37,7 +37,7 @@ flowchart TB
 
 	dev([Team Developers])
 
-	cdn([CDN - Deploy Project to Web])
+	cdn([CDN - Content Delivery Network])
 
 	crepo([Central Project Repository])
 
@@ -58,34 +58,39 @@ flowchart TB
 	vsc([VScode - Command and Control]) 
 
 ```
-<b>Iterative Website Development Stack</b>
+<b>Iterative  Development Stack</b>
 </div>
 
+The core technologies are
 
->The core technologies of Iterative Development are Git, GitHub, and the Central Project Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
->
+- [VScode](vscode.md)
 
->GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+- [Git](git.md)
+  
+- [GitHub](github.md)
 
->The Central Repository is managed my a team member
+- Central Project Repository controlled by the project gatekeeper
 
->It helps answer the questions for the lifetime of the project **who changed what, where, when, and why?** for the lifetime of the project
+- Local Project Repository,
 
----
-
-> Team members use the Website Development Stack to develop, deploy, and maintain websites to the Internet. 
-
->There would be confusion and possible defects created if Team members were to directly make changes to the central project repository.  
-
->A solution to this problem is to have one central repository controlled by a team member gatekeeper. Each team member [forks](git-github#fork) a copy of central project repository to their GetHub account and makes a [clone](glossary#clone) of it on their workstation.
-
->Each developer makes changes to their repository [clone](glossary#clone). They cannot directly make changes to the central repository.
+- CDN - Content Delivery Network, like [Cloudflare](http://cloudflare.com), to deploying Stake Holders private [Preview](preview.md),  and the *Production Websites*,
 
 
+GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+
+The Central Repository is managed my a team member
+
+It helps answer the questions for the lifetime of the project **who changed what, where, when, and why?** for the lifetime of the project
+
+Team members use the Website Development Stack to develop, deploy, and maintain websites to the Internet. 
+
+There would be confusion and possible defects created if Team members were to directly make changes to the central project repository.  
+
+A solution to this problem is to have one central repository controlled by a team member gatekeeper. Each team member [forks](git-github#fork) a copy of central project repository to their GetHub account and makes a [clone](glossary#clone) of it on their workstation.
+
+Each developer makes changes to their repository [clone](git.md#clone). They cannot directly make changes to the central repository.
 
 The Iterative Development teams use the Iterative Website Development Stack technologies
-
-The core technologies are [VScode](), [Git](), [GitHub](dev_stack_details#github-details) and the *Central Project Repository* controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
 
 
 #### Team Developers 
@@ -114,13 +119,13 @@ The Central Website Repository is managed by a team member project gatekeeper wi
 
 #### GitHub Workflow
 
-- GitHub workflow is centered on [Pull](git.com#pull) git command. The GitHub workflow works with collaborating team members contributing to the central project repository using the [Fork](git.md#fork) command It is centered on the topic Branches workflow.
+- GitHub workflow is centered on [Pull](git.md#pull) git command. The GitHub workflow works with collaborating team members contributing to the central project repository using the [Fork](git.md#fork) command It is centered on the topic Branches workflow.
 
 A summary of GitHub workflow for each team member is:
 
   1. [Fork](git.md#fork) the central project repository creating a local project repository in individual team members GitHub account
   2. [Clone](git.md#clone) the forked local project repository in team member GitHub account to workstation
-  3. Creates a topic [Branch](git.md#branch) off the cloned local project repository **main** branch
+  3. Creates a topic using [Switch](git.md#switch) off the cloned local project repository **main** branch
   4. Make topic edits and commits 
   5. [Push](git.md#push) after each commit to the cloned local project repository in GitHub account
   6. Periodically [Pull](git.md#pull) from the central project repository. The **develop** branch will have merged accepted Pull Requests

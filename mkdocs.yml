@@ -29,7 +29,7 @@ theme:
 nav:
 #
   - Home:
-    - Iterative Website Development: index.md
+    - Iterative Project Development: index.md
 
   - Version Control System: 
     - Overview: version_control_overview.md
@@ -38,13 +38,13 @@ nav:
     - Git: git.md
 
   - Technologies:
-    - Workstations: workstations.md
     - Material MkDocs: material_mkdocs.md
     - Markdown: markdown.md
+    - Workstations: workstations.md
 
   - Development Stack:
-    - Dev Stack: dev_stack.md
-    - Dev Stack Details: dev_stack_details.md
+    - Iterative Development Stack: dev_stack.md
+
 
   - Remediation: defect_remediation_cost.md
 

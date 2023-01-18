@@ -9,17 +9,17 @@
       
       
       
-        <link rel="prev" href="../markdown/">
+        <link rel="prev" href="../workstations/">
       
       
-        <link rel="next" href="../dev_stack_details/">
+        <link rel="next" href="../defect_remediation_cost/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.5">
     
     
       
-        <title>Dev Stack - John Telford - mkdocs</title>
+        <title>Iterative Development Stack - John Telford - mkdocs</title>
       
     
     
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dev Stack
+              Iterative Development Stack
             
           </span>
         </div>
@@ -196,7 +196,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../workstations/" class="md-tabs__link">
+      <a href="../material_mkdocs/" class="md-tabs__link">
         Technologies
       </a>
     </li>
@@ -357,7 +357,7 @@
   
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
-        Iterative Website Development
+        Iterative Project Development
       </a>
     </li>
   
@@ -496,20 +496,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../workstations/" class="md-nav__link">
-        Workstations
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../material_mkdocs/" class="md-nav__link">
         Material MkDocs
       </a>
@@ -526,6 +512,20 @@
     <li class="md-nav__item">
       <a href="../markdown/" class="md-nav__link">
         Markdown
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workstations/" class="md-nav__link">
+        Workstations
       </a>
     </li>
   
@@ -583,12 +583,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Dev Stack
+          Iterative Development Stack
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Dev Stack
+        Iterative Development Stack
       </a>
       
         
@@ -627,6 +627,20 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#github-central-repository" class="md-nav__link">
+    GitHub Central Repository.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-workflow" class="md-nav__link">
+    GitHub Workflow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#mkdocs-material-static-site-generator" class="md-nav__link">
     MkDocs Material - Static Site Generator
   </a>
@@ -656,20 +670,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../dev_stack_details/" class="md-nav__link">
-        Dev Stack Details
-      </a>
     </li>
   
 
@@ -1035,7 +1035,7 @@
 
 
 
-  <h1>Dev Stack</h1>
+  <h1>Iterative Development Stack</h1>
 
 <div class="admonition abstract">
 <p class="admonition-title">Abstract</p>
@@ -1049,8 +1049,7 @@
 <pre class="mermaid"><code>flowchart TB
 
     crepo --- cdn
-build
-bjuil
+
     cdn --- net
 
     dev --- vsc 
@@ -1073,13 +1072,13 @@ bjuil
 
     dev([Team Developers])
 
-    cdn([CDN - Deploy Website to Web])
+    cdn([CDN - Content Delivery Network])
 
-    crepo([Central Website Repository])
+    crepo([Central Project Repository])
 
     github([GitHub]) 
 
-    lrepo([Local Website Repository])
+    lrepo([Local Projet Repository])
 
     lpreweb([Local Preview Website])
 
@@ -1093,13 +1092,19 @@ bjuil
 
     vsc([VScode - Command and Control]) 
 </code></pre>
-<b>Iterative Website Development Stack</b>
+<b>Iterative  Development Stack</b>
 </div>
 
+<p>The core technologies are <a href="../vscode/">VScode</a>, <a href="../git/">Git</a>, <a href="../github/">GitHub</a> and the <em>Central Project Repository</em> controlled by the project gatekeeper,  using <em>Local project Repository</em>, the CDN "Content Delivery Network", like <a href="http://cloudflare.com">Cloudflare</a>, to deploying Stake Holders private <a href="../preview/">Preview</a>,  and the <em>Production Websites</em>,</p>
+<p>The core technologies of Iterative Development are Git, GitHub, and the Central Project Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.</p>
+<p>GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.</p>
+<p>The Central Repository is managed my a team member</p>
+<p>It helps answer the questions for the lifetime of the project <strong>who changed what, where, when, and why?</strong> for the lifetime of the project</p>
+<p>Team members use the Website Development Stack to develop, deploy, and maintain websites to the Internet. </p>
+<p>There would be confusion and possible defects created if Team members were to directly make changes to the central project repository.  </p>
+<p>A solution to this problem is to have one central repository controlled by a team member gatekeeper. Each team member <a href="git-github#fork">forks</a> a copy of central project repository to their GetHub account and makes a <a href="glossary#clone">clone</a> of it on their workstation.</p>
+<p>Each developer makes changes to their repository <a href="../git/#clone">clone</a>. They cannot directly make changes to the central repository.</p>
 <p>The Iterative Development teams use the Iterative Website Development Stack technologies</p>
-<ul>
-<li>The core technologies are <a href="">VScode</a>, <a href="">Git</a>, <a href="dev_stack_details#github-details">GitHub</a> central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private <a href="../preview/">Preview</a> Internet websites, production websites, and .</li>
-</ul>
 <h4 id="team-developers">Team Developers</h4>
 <ul>
 <li>
@@ -1111,9 +1116,30 @@ bjuil
     Developers use <a href="../vscode/">VSCode</a> as their Web Development Stack Command and Control center. They use it to edit code using their Local Website Repository, commit changes to the Central Website Repository, refresh their Local Website Repository, and deploy <a href="../preview/">Preview</a> Internet for themselves and stakeholders to view and give feedback</p>
 </li>
 </ul>
+<hr />
 <h4 id="github">GitHub</h4>
 <p><a href="../github/">GitHub</a> is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions <strong>who changed what, where, when, and why</strong> for the lifetime of the project</p>
+<h4 id="github-central-repository">GitHub Central Repository.</h4>
+<p>The core technologies of Iterative Development SCM are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.</p>
 <p>The Central Website Repository is managed by a team member project gatekeeper with help from other team members</p>
+<hr />
+<h4 id="github-workflow">GitHub Workflow</h4>
+<ul>
+<li>GitHub workflow is centered on <a href="../git/#pull">Pull</a> git command. The GitHub workflow works with collaborating team members contributing to the central project repository using the <a href="../git/#fork">Fork</a> command It is centered on the topic Branches workflow.</li>
+</ul>
+<p>A summary of GitHub workflow for each team member is:</p>
+<ol>
+<li><a href="../git/#fork">Fork</a> the central project repository creating a local project repository in individual team members GitHub account</li>
+<li><a href="../git/#clone">Clone</a> the forked local project repository in team member GitHub account to workstation</li>
+<li>Creates a topic using <a href="../git/#switch">Switch</a> off the cloned local project repository <strong>main</strong> branch</li>
+<li>Make topic edits and commits </li>
+<li><a href="../git/#push">Push</a> after each commit to the cloned local project repository in GitHub account</li>
+<li>Periodically <a href="../git/#pull">Pull</a> from the central project repository. The <strong>develop</strong> branch will have merged accepted Pull Requests</li>
+<li>Periodically deploy local project repository to a private <a href="../preview/">Preview </a> website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.</li>
+<li>Open a <a href="../git/#pull">Pull</a> Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  </li>
+<li>Team members discuss, and optionally continue committing on Pull Requests.</li>
+</ol>
+<hr />
 <ul>
 <li>Reference <a href="dev_stack_details#github_details">GitHub Details</a></li>
 </ul>

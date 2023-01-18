@@ -2,7 +2,7 @@
 
 - [x] reviewed
 
-This site is about lowering website development costs. It describes developing websites using Iterative Website Development.
+This site is about lowering website development costs. It describes developing using Iterative Project Development.
 
 Creating, adding features, functions, security and maintaining websites that meet users needs is difficult, complex, time consuming, and expensive. Team members support is a large part of total website  lifetime costs.
 
