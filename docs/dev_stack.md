@@ -135,24 +135,15 @@ A summary of GitHub workflow for each team member is:
 
 ---
 
-
 - Reference [GitHub Details](dev_stack_details#github_details)
 
 #### MkDocs Material - Static Site Generator
 
-Is a Static Site Generator used to build a website from a repository to create:
-  
-  - Developers use it and their local repository to [Preview](preview.md) how features, fixes, experimental ideal, they are working on will possible look on the website
+[MkDocs Material](mkdocs.md)
 
-  - Content Delivery network(CDN) uses it create [Preview](preview.md)Stake Holders 
+#### Content Delivery Network
 
-It is also used by the  do build and deploy the production website from the Central Repository
-
-
-
-#### Content Delivery Network (CDN)
-
-
+[Content Delivery Network](content_delivery_network.md)
 
   
 A "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
