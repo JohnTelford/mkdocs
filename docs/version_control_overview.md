@@ -40,3 +40,6 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 >
 [GitHub](github.md) builds collaboration directly into the development process. Work is organized into repositories where developers can outline requirements or direction and set expectations for team members. Then, using the GitHub flow, developers simply create a branch to work on updates, commit changes to save them, open a pull request to propose and discuss changes, and merge pull requests once everyone is on the same page. For more information, see [GitHub Flow](github.md#github-flow)
 >
+
+---
+
