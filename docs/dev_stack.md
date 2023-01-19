@@ -15,7 +15,9 @@ flowchart TB
 	
 	crepo --- cdn
 
-	cdn --- net
+	cdn --- mkdcdn
+
+	mkdcdn --- net
 
 	dev --- vsc 
 
@@ -37,7 +39,7 @@ flowchart TB
 
 	dev([Team Developers])
 
-	cdn([CDN - Content Delivery Network])
+	cdn([Content Delivery Network])
 
 	crepo([Central Project Repository])
 
@@ -47,7 +49,9 @@ flowchart TB
 
 	lpreweb([Local Preview Website])
 
-	mkd([Mkdocs Material - Static Site Generator])
+	mkd([MkDocs Static Site Generator])
+
+	mkdcdn([MkDocs Static Site Generator])
 
 	net([Internet]) 
 	

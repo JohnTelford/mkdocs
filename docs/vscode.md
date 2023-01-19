@@ -27,7 +27,7 @@ The development Command And Control tasks are:
 - Some VScode extensions continually check for syntax and other errors
 - Live edit browser previews show how edits will looks on a web page
 - Built-in command shell
-  - Run [MkDocs](material_mkdocs.md) to create a local workstation website
+  - Run [MkDocs](mkdocs.md) to create a local workstation website
 
 <!-- *DNC* -->
 - Use the Built-in command shell to create [preview](preview.md) to the Internet using  for stakeholders

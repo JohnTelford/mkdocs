@@ -1,8 +1,8 @@
 ### Markdown
 
-Markdown is the programming language [MkDocs](material_mkdocs.md) uses for creating websites, not the standard browser HTML,CSS, and JavaScript languages. These programming languages are strict foreign language requiring developers to know the languages and are able to use them. Markdown is written using spoken languages
+Markdown is the programming language [MkDocs](mkdocs.md) uses for creating websites, not the standard browser HTML,CSS, and JavaScript languages. These programming languages are strict foreign language requiring developers to know the languages and are able to use them. Markdown is written using spoken languages
 
-HTML can be embedded in Markdown. There's no need to preface it or delimit it to indicate that you're switching from Markdown to HTML. Material MkDocs also has configuration options to support CCS and JavaScript.
+HTML can be embedded in Markdown. There's no need to preface it or delimit it to indicate that you're switching from Markdown to HTML.  [MkDocs](mkdocs.md) also has configuration options to support CCS and JavaScript.
 
 
 Using Markdown is different then using a word processing editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. 
@@ -17,14 +17,13 @@ The [The Markdown Guide](https://www.markdownguide.org) explains how to use Mark
 
 ---
 
-
 The compiling process can also be done by a Content Delivery Network using MkDocs to compile the Markdown files and places them on an internal MkDocs web server. The Content Delivery Network deploys the MkDocs web server to the Internet.
 
 What the developer sees on the workstation is exactly what the Content Delivery Network delivers to the Internet.
 
 Configuring the Content Delivery Network enables developers to frequently deploy their work to private [Previews](preview.md) website for stakeholders, interested parties, and other Teams to see their work and provide feedback.
 
-
+---
 
 > Markdown can be used for everything. People use it to create websites, documents, notes, books, presentations, email messages, and technical documentation.
 
