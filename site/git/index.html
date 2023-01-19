@@ -12,7 +12,7 @@
         <link rel="prev" href="../github/">
       
       
-        <link rel="next" href="../material_mkdocs/">
+        <link rel="next" href="../content_delivery_network/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.5">
@@ -198,7 +198,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../material_mkdocs/" class="md-tabs__link">
+      <a href="../content_delivery_network/" class="md-tabs__link">
         Technologies
       </a>
     </li>
@@ -487,8 +487,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#git-init" class="md-nav__link">
-    git init
+  <a href="#init" class="md-nav__link">
+    init
   </a>
   
 </li>
@@ -672,8 +672,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../material_mkdocs/" class="md-nav__link">
-        Material MkDocs
+      <a href="../content_delivery_network/" class="md-nav__link">
+        Content Delivery Network
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mkdocs/" class="md-nav__link">
+        MkDocs
       </a>
     </li>
   
@@ -1125,27 +1139,35 @@
 <h2 id="basic-git-commands">Basic Git Commands</h2>
 <p><a href="https://docs.github.com/en/get-started/using-git/about-git#basic-git-commands">Basic Git Commands</a></p>
 <p>To use Git, developers use specific commands to copy, create, change, and combine code. These commands can be executed directly from the command line or by using an application like GitHub Desktop. Here are some common commands for using Git:</p>
-<h3 id="git-init">git init</h3>
+<h4 id="init">init</h4>
 <p><code>git init</code> initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.</p>
-<h3 id="add">add</h3>
+<h4 id="add">add</h4>
 <p><code>git add</code> stages a change. Git tracks changes to a developer's codebase, but it's necessary to stage and take a snapshot of the changes to include them in the project's history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part of the project's history. Staging and committing separately gives developers complete control over the history of their project without changing how they code and work.</p>
-<h3 id="branch">branch</h3>
+<h4 id="branch">branch</h4>
 <p><code>git branch</code> shows the branches being worked on locally.</p>
-<h3 id="clone">clone</h3>
+<h4 id="clone">clone</h4>
 <p><code>git clone</code> creates a local copy of a project that already exists remotely. The clone includes all the project's files, history, and branches.</p>
-<h3 id="commit">commit</h3>
+<h4 id="commit">commit</h4>
 <p><code>git commit</code> saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that's been staged with git add will become a part of the snapshot with git commit.</p>
-<h3 id="fork">fork</h3>
-<p><code>git fork</code></p>
-<h3 id="merge">merge</h3>
+<h4 id="fork">fork</h4>
+<p>Fork in not a git command. It is a GitHub process. See:   </p>
+<ul>
+<li>
+<p>GitGub documentation <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo#about-forks">About forks</a></p>
+</li>
+<li>
+<p>Git Documentation <a href="https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project">GitHub - Contributing to a Project</a></p>
+</li>
+</ul>
+<h4 id="merge">merge</h4>
 <p><code>git merge</code> merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when they want to combine changes from a feature branch into the main branch for deployment.</p>
-<h3 id="pull">pull</h3>
+<h4 id="pull">pull</h4>
 <p><code>pull</code> updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.</p>
-<h3 id="push">push</h3>
+<h4 id="push">push</h4>
 <p><code>git push</code> updates the remote repository with any commits made locally to a branch.</p>
-<h3 id="git-status">git status</h3>
+<h4 id="git-status">git status</h4>
 <p><code>git status</code> shows the status of changes as untracked, modified, or staged.</p>
-<h3 id="git-switch">git switch</h3>
+<h4 id="git-switch">git switch</h4>
 <p><code>git switch</code> switch to a specified branch. The working tree and the index are updated to match the branch. All new commits will be added to the tip of this branch.</p>
 <h2 id="git-references">Git References</h2>
 <h3 id="git-book">Git Book</h3>

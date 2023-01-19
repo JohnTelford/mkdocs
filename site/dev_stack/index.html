@@ -196,7 +196,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../material_mkdocs/" class="md-tabs__link">
+      <a href="../content_delivery_network/" class="md-tabs__link">
         Technologies
       </a>
     </li>
@@ -496,8 +496,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../material_mkdocs/" class="md-nav__link">
-        Material MkDocs
+      <a href="../content_delivery_network/" class="md-nav__link">
+        Content Delivery Network
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mkdocs/" class="md-nav__link">
+        MkDocs
       </a>
     </li>
   
@@ -648,8 +662,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#content-delivery-network-cdn" class="md-nav__link">
-    Content Delivery Network (CDN)
+  <a href="#content-delivery-network" class="md-nav__link">
+    Content Delivery Network
   </a>
   
 </li>
@@ -1050,7 +1064,9 @@
 
     crepo --- cdn
 
-    cdn --- net
+    cdn --- mkdcdn
+
+    mkdcdn --- net
 
     dev --- vsc 
 
@@ -1072,7 +1088,7 @@
 
     dev([Team Developers])
 
-    cdn([CDN - Content Delivery Network])
+    cdn([Content Delivery Network])
 
     crepo([Central Project Repository])
 
@@ -1082,7 +1098,9 @@
 
     lpreweb([Local Preview Website])
 
-    mkd([Mkdocs Material - Static Site Generator])
+    mkd([MkDocs Static Site Generator])
+
+    mkdcdn([MkDocs Static Site Generator])
 
     net([Internet]) 
 
@@ -1163,17 +1181,9 @@
 <li>Reference <a href="dev_stack_details#github_details">GitHub Details</a></li>
 </ul>
 <h4 id="mkdocs-material-static-site-generator">MkDocs Material - Static Site Generator</h4>
-<p>Is a Static Site Generator used to build a website from a repository to create:</p>
-<ul>
-<li>
-<p>Developers use it and their local repository to <a href="../preview/">Preview</a> how features, fixes, experimental ideal, they are working on will possible look on the website</p>
-</li>
-<li>
-<p>Content Delivery network(CDN) uses it create <a href="../preview/">Preview</a>Stake Holders </p>
-</li>
-</ul>
-<p>It is also used by the  do build and deploy the production website from the Central Repository</p>
-<h4 id="content-delivery-network-cdn">Content Delivery Network (CDN)</h4>
+<p><a href="../mkdocs/">MkDocs Material</a></p>
+<h4 id="content-delivery-network">Content Delivery Network</h4>
+<p><a href="../content_delivery_network/">Content Delivery Network</a></p>
 <p>A "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"</p>
 <h3 id="github_1">GitHub</h3>
 <p>Central Repository.  </p>

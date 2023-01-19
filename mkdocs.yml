@@ -38,7 +38,8 @@ nav:
     - Git: git.md
 
   - Technologies:
-    - Material MkDocs: material_mkdocs.md
+    - Content Delivery Network: content_delivery_network.md
+    - MkDocs: mkdocs.md
     - Markdown: markdown.md
     - Workstations: workstations.md
 
