@@ -66,6 +66,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#cdn" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -500,9 +505,38 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Content Delivery Network
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Content Delivery Network
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cdn" class="md-nav__link">
+    CDN
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -960,8 +994,14 @@
 
 
 
-<p>Content Delivery Network</p>
-<p>A "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"</p>
+  <h1>Content Delivery Network</h1>
+
+<h3 id="cdn">CDN</h3>
+<p>A "MkDocs Static Site Generator" is used to create the "Production Website" by the "CDN - Deploy Website to Web"</p>
+<p>The CDN is configured for each developer. Developers can  make commitments using any of their branches only. The cannot production branch, only</p>
+<p>The CDN is configured so developers and can commit any branch</p>
+<p>When a  developer makes a git commitment to the central project repository</p>
+<p>The CDN is configure to poll the Central Project Repository for new commits from any developer, and builds the commit It is built using the MkDocs configuration contained in the commit.</p>
 
 
 
