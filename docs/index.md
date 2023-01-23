@@ -2,7 +2,7 @@
 
 - [x] reviewed
 
-This site is about lowering project development costs. It describes project development using Iterative Project Development technology. An example is this website 
+This site is about lowering project development costs. It describes project development using Iterative Project Development technology. An example is this website built and maintained using technology described.
 
 Creating, adding features, functions, security and maintaining websites that meet users needs is difficult, complex, time consuming, and expensive. Team members support is a large part of total website  lifetime costs.
 

@@ -29,9 +29,9 @@ In a Distributed Version Control System - DVCS, every developer has a full copy 
 
 ### About repositories
 
-> A repository, or [Git](git.md) project, encompasses the entire collection of files and folders associated with a project, along with each file's revision history. The file history appears as snapshots in time called commits. The commits can be organized into multiple lines of development called branches. Because [Git](git.md) is a DVCS, repositories are self-contained units and anyone who has a copy of the repository can access the entire codebase and its history. Using the command line or other ease-of-use interfaces, a [Git](git.md) repository also allows for: interaction with the history, cloning the repository, creating branches, committing, merging, comparing changes across versions of code, and more.
+> A repository, or [Git](git.md) project, encompasses the entire collection of files and folders associated with a project, along with each file's revision history. The file history appears as snapshots in time called commits. The commits can be organized into multiple lines of development called branches. Because [Git](git.md) is a DVCS, repositories are self-contained units and anyone who has a copy of the repository can access the entire codebase and its history. Using the command line or other ease-of-use interfaces, a [Git](git.md) repository also allows for interaction with the history, cloning the repository, creating branches, committing, merging, comparing changes across versions of code, and more.
 >
-Through platforms like [GitHub](github.md), [Git](git.md) also provides more opportunities for project transparency and collaboration. Public repositories help teams work together to build the best possible final product.
+Through platforms like [GitHub](github.md), [Git](git.md) also provides more opportunities for project transparency and collaboration. Repositories help teams work together to build the best possible final product.
 >
 
 There are two primary ways people collaborate on [GitHub](github.md):
@@ -41,7 +41,7 @@ There are two primary ways people collaborate on [GitHub](github.md):
 
 With a shared repository, individuals and teams are explicitly designated as contributors with read, write, or administrator access. This simple permission structure, combined with features like protected branches, helps teams progress quickly when they adopt GitHub.
 
-For projects [team](team_overview.md) members contribute, managing individual permissions can be challenging, but a [fork](git.md#fork) and pull model allows anyone who can view the project to contribute. A fork is a copy of a project under a developer's personal account. Every developer has full control of their fork and is free to implement a fix or a new feature. Work completed in forks is either kept separate, or is surfaced back to the original project via a pull request. There, maintainers can review the suggested changes before they're merged. For more information, see "Contributing to projects."
+For projects [team](team_overview.md) members contribute, managing individual permissions can be challenging, but a [fork](git.md#fork) and pull model allows anyone who can view the project to contribute. A [fork](git.md#fork) is a downstream copy of a project under a developer's personal account. Every developer has full control of their fork and is free to implement a fix or a new feature. Using [forks](git.md#fork), work in forks is either kept separate, or is sent upstream back to the original project via a pull request. There, maintainers can review the suggested changes before they're merged. For more information, see "Contributing to projects."
 
 
 ### How GitHub works
