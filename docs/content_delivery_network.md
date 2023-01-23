@@ -3,6 +3,24 @@
 
 ---
 
+## Cloudflare
+
+- The Cloudflare global network runs every service in every data center so your users have a consistent experience everywhere — whether they are in Chicago or Cape Town. This means all customer traffic is processed at the data center closest to its source, with no backhauling or performance tradeoffs. And with single-pass inspection, security is streamlined and built-in.
+
+- Cloudflare's network is one of the biggest, most connected, and fastest in the world. It extends to more than 250 cities. In those cities, we're often present in multiple data centers in order to connect to as many networks and bring our services as close to as many users as possible. 
+
+- 95% of the entire Internet-connected world is now within 50 ms of a Cloudflare presence, and 80% of the entire Internet-connected world is within 20ms (for reference, it takes 300-400 ms for a human to blink):
+
+### DNS Resolver
+
+1.1.1.1 is Cloudflare’s public DNS resolver. It offers a fast and private way to browse the Internet. DNS resolversOpen external link translate domains like cloudflare.com into the IP addresses necessary to reach the website (like 104.16.123.96).
+
+Unlike most DNS resolvers like most ISPs, the 1.1.1.1 does not sell user data to advertisers. 1.1.1.1 has also been measured to be the fastest DNS resolver available
+
+## What is a CDN?
+
+[What is a CDN?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+c
 ## Branch build controls
 
 [Branch build controls](https://developers.cloudflare.com/pages/platform/branch-build-controls/)
