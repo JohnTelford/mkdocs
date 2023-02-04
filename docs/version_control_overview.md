@@ -2,9 +2,9 @@
 
 # About Version Control
 
-##### Merland
+{Merland}
 
-Git A Version Control System, or VCS, tracks the history of changes as teams collaborate on projects together. As developers make changes to the project, any earlier version of the project can be recovered at any time.
+Git a Version Control System, or VCS, tracks the history of changes as teams collaborate on projects together. As developers make changes to the project, any earlier version of the project can be recovered at any time.
 
 Developers can review project history to find out:
 
