@@ -1,25 +1,12 @@
+## Experience
 
-
-I am the sole proprietor of JohnTelford.com LLC technology consulting company, working with client  development projects for more that 30 years.
-
----
+John Telford has been working in client development projects for over 30 years, with extensive experience across most IT functional groups. He is an experienced, knowledgeable, industry professional specialized in web hardware and software technology disciplines, architecture, and deployment.
 
 ## Collaboration
 
-A seasoned, knowledgeable, industry professional, Electronics, Software, and Web engineer specializing in web hardware and software technology disciplines, Architecture, Architecture, and Deployment.
-
-- Practitioner with extensive experience across most IT functional groups
-- Ability to effectively collaborate to accomplish multidiscipline goals:
-    - Senior management teams
-    - External and internal clients
-    - Functional groups
-    - Individual contributors
-    - Vendors
-
----
+John has the capability to collaborate effectively with different groups and individuals, including senior management teams, external and internal clients, functional groups, individual contributors, and vendors.
 
 ## Nuggets
-Way back when the Internet web browsers and programming languages came along, I became interested in web technologies, and began learn by doing technology deep dives. I have years of learning some ever changing Electronics, Internet, and Software technologies by hands-on experiencing the technologies du jour
 
-I have a passion pursuing what’s new and improved with these industries. Checking out what’s new or not, a pipe dream or not, or what’s new and improved, is like panning for gold. Buried within the mountains of info rubble produced daily, every so often one finds interesting technology nuggets making the effort worthwhile. I use the [Hype Curve](hype_curve.md) as a guide
+John has years of experience learning the ever-changing technologies of electronics, the internet, and software by participating in hands-on activities. He is passionate about investigating what’s new and improved in these industries, and uses the Hype Curve as a guide.
 

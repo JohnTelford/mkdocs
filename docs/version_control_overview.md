@@ -1,31 +1,28 @@
 
-## Version Control
 
-Version control technologies are the center of Iterative Project Developments
+# About Version Control
 
-### About Version Control And Git
+##### Merland
 
-*From [About version control and Git](https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git)*
+Git A Version Control System, or VCS, tracks the history of changes as teams collaborate on projects together. As developers make changes to the project, any earlier version of the project can be recovered at any time.
 
-> A version control system, or VCS, tracks the history of changes as [teams](team_overview.md) collaborate on projects together. As developers make changes to the project, any earlier version of the project can be recovered at any time.
+Developers can review project history to find out:
 
-> Developers can review project history to find out:
->
-- Which changes were made?
-- Who made the changes?
-- When were the changes made?
-- Why were changes needed?
->
-VCSs give each contributor a unified and consistent view of a project, surfacing work that's already in progress. Seeing a transparent history of changes, who made them, and how they contribute to the development of a project helps team members stay aligned while working independently.
-> 
-In a Distributed Version Control System - DVCS, every developer has a full copy of the project and project history on their workstation. [Git](git.md) is the most popular distributed version control system. [Git](git.md) is commonly used for both open source and commercial software development, with significant benefits for individuals, teams and businesses.
-> 
-- [Git](git.md) lets developers see the entire timeline of their changes, decisions, and progression of any project in one place. From the moment they access the history of a project, the developer has all the context they need to understand it and start contributing.
-> 
-- Developers work in every time zone. With a DVCS like [Git](git.md), collaboration can happen any time while maintaining source code integrity. Using branches, developers can safely propose changes to production code.
-> 
-- Businesses using [Git](git.md) can break down communication barriers between teams and keep them focused on doing their best work. Plus, [Git](git.md) makes it possible to align experts across a business to collaborate on major projects
->
+Which changes were made?  
+Who made the changes?  
+When were the changes made?  
+Why were changes needed?  
+
+VCSS give each contributor a unified and consistent view of a project, surfacing work that's already in progress. Seeing a transparent history of changes, who made them, and how they contribute to the development of a project helps team members stay aligned while working independently.
+
+In a Distributed Version Control System - DVCS, every developer has a full copy of the project and project history on their workstation. Git is the most popular distributed version control system. Git is commonly used for both open source and commercial software development, with significant benefits for individuals, teams and businesses.
+
+Git lets developers see the entire timeline of their changes, decisions, and progression of any project in one place. From the moment they access the history of a project, the developer has all the context they need to understand it and start contributing.
+
+Developers work in every time zone. With a DVCS like Git, collaboration can happen any time while maintaining source code integrity. Using branches, developers can safely propose changes to production code.
+
+Businesses using Git can break down communication barriers between teams and keep them focused on doing their best work. Plus, Git makes it possible to align experts across a business to collaborate on major projects.
+
 
 ### About repositories
 
