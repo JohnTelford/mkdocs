@@ -70,6 +70,7 @@ nav:
 
 plugins:
     - search:
+    
       # lang: en
     # - git-revision-date-localized:
       # type: date
