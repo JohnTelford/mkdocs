@@ -62,7 +62,7 @@
 
 ### Local
 
-### stakeholders
+### Stakeholders
 
 ### production
 

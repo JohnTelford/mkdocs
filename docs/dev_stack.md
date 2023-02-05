@@ -55,7 +55,7 @@ flowchart TB
 
 	net([Internet]) 
 	
-	prevweb([stakeholders Holders Private Preview Website])
+	prevweb([Stakeholders Private Preview Website])
 
 	proweb([Production Website])
 
@@ -77,7 +77,7 @@ The core technologies are
 
 - Local Project Repository,
 
-- CDN - Content Delivery Network, like [Cloudflare](http://cloudflare.com), to deploying stakeholders holders private [Preview](preview.md),  and the *Production Websites*,
+- CDN - Content Delivery Network, like [Cloudflare](http://cloudflare.com), to deploying Stakeholders Private [Preview](preview.md),  and the Production Websites
 
 
 GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
@@ -103,9 +103,7 @@ The Iterative Development teams use the Iterative Website Development Stack tech
 	Each team developer has their own Local Website Repository that can be updated from the Central Website Repository. Team members cannot update the Central Web Repository directly. They submit their changes. The approved changes by the project gatekeeper are added to the Central Website Repository. Team members can then update their Local Website Repositories.
 
 - VScode   
-	Developers use [VSCode](vscode.md) as their Web Development Stack Command and Control center. They use it to edit code using their Local Website Repository, commit changes to the Central Website Repository, refresh their Local Website Repository, and deploy [Preview](preview.md) Internet for themselves and stakeholders to view and give feedback
-
-
+	Developers use [VSCode](vscode.md) as their Web Development Stack Command and Control center. They use it to edit code using their Local Website Repository, commit changes to the Central Website Repository, refresh their Local Website Repository, and deploy [Preview](preview.md) Internet for themselves and Stakeholders to view and give feedback
 
 ---
 
@@ -115,7 +113,7 @@ The Iterative Development teams use the Iterative Website Development Stack tech
 
 #### GitHub Central Repository.  
 
-The core technologies of Iterative Development SCM are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+The core technologies of Iterative Development Source Control Management are Git, GitHub, the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying Private Preview Internet websites, production websites, and individual team members Private Preview websites.
 
 The Central Website Repository is managed by a team member project gatekeeper with help from other team members
 
@@ -133,7 +131,7 @@ A summary of GitHub workflow for each team member is:
   4. Make topic edits and commits 
   5. [Push](git.md#push) after each commit to the cloned local project repository in GitHub account
   6. Periodically [Pull](git.md#pull) from the central project repository. The **develop** branch will have merged accepted Pull Requests
-  7. Periodically deploy local project repository to a private [Preview ](preview.md) website without disturbing other developers work or the production version, for stakeholders holders viewing and feedback. This reduces the Pull Request evaluation time because stakeholders holders interested in topics can see how they are progressing and working with the website.
+  7. Periodically deploy local project repository to a Private [Preview ](preview.md) website without disturbing other developers work or the production version, for Stakeholders holders viewing and feedback. This reduces the Pull Request evaluation time because Stakeholders holders interested in topics can see how they are progressing and working with the website.
   8. Open a [Pull](git.md#pull) Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
   9. Team members discuss, and optionally continue committing on Pull Requests.
 
@@ -156,7 +154,7 @@ A "MkDocs Static Site Generator" tools are used to create the "Production Websit
 ### GitHub 
 Central Repository.  
 
->The core technologies of Iterative Development are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+>The core technologies of Iterative Development are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying Private Preview Internet websites, production websites, and individual team members Private Preview websites.
 >
 
 >GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
@@ -177,17 +175,17 @@ Central Repository.
 
 - Team members commit changes to their local repository clone
 
-- They may deploy their local repository to a private [Preview](preview.md) Internet website for stakeholders to see and give feedback. 
+- They may deploy their local repository to a Private [Preview](preview.md) Internet website for Stakeholders to see and give feedback. 
 
-- The process is managed using [GitHub for Teams](https://github.com/team). When stakeholders determine developers changes, defect fixes, or new features are ready, a GitHub [Pull Request](git-github#pull-request) is made by developers to the central project repository. 
+- The process is managed using [GitHub for Teams](https://github.com/team). When Stakeholders determine developers changes, defect fixes, or new features are ready, a GitHub [Pull Request](git-github#pull-request) is made by developers to the central project repository. 
 
 	- Project team members and the gatekeeper are notified by GitHub of the [Pull Request](git-github#pull-request) request. They may examine, comment on, suggest possible changes, and test the code. 
 
 	- When the team agrees on committed developers changes, they are committed to the central project repository by the gatekeeper. This process is repeated for all developer committed changes. 
 
-	- Iterations of the central project repository may be deployed by the gatekeeper to a private [Preview](preview.md)  for stakeholders viewing. 
+	- Iterations of the central project repository may be deployed by the gatekeeper to a Private [Preview](preview.md)  for Stakeholders viewing. 
 
 - The next step is each developer [Pulls](git-github#pull) the central repository changes and commits them to their local repository copy of the central project. This process keeps team members up to date on changes.
 
-- The central project repository may be deployed to the public Internet by the gatekeeper after stakeholders agree there have been sufficient development and testing iterations.
+- The central project repository may be deployed to the public Internet by the gatekeeper after Stakeholders agree there have been sufficient development and testing iterations.
 

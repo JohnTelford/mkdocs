@@ -4,7 +4,7 @@ Is a Static Site Generator used to build a website from a repository to create:
 
 - Developers use it and their local repository to Preview how features, fixes, experimental ideal, they are working on will possible look on the website
 
-- Content Delivery network(CDN) uses it create Previews for stakeholders Holders
+- Content Delivery network(CDN) uses it create Previews for Stakeholders Holders
 
 It is also used by the do build and deploy the production website from the Central Repository
 
@@ -33,7 +33,7 @@ The compiling process can also be done by a Content Delivery Network using MkDoc
 
 What the developer sees on the workstation is exactly what the Content Delivery Network delivers to the Internet.
 
-Configuring the Content Delivery Network enables developers to frequently deploy their work to private [Previews](preview.md) website for stakeholders, interested parties, and other [Teams](team_overview.md) to see their work and provide feedback.
+Configuring the Content Delivery Network enables developers to frequently deploy their work to Private [Previews](preview.md) website for Stakeholders, interested parties, and other [Teams](team_overview.md) to see their work and provide feedback.
 
 
 

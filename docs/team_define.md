@@ -2,7 +2,7 @@
 title: Team - Define
 ---
 
-Defining websites helps the Iterative Development teams and stakeholders understand the project.
+Defining websites helps the Iterative Development teams and Stakeholders understand the project.
 
 #### Define - Prerequisites
 
@@ -16,7 +16,7 @@ Defining website prerequisites is the first steps in optimizing website costs
 
 - Functionality
 
-- stakeholders
+- Stakeholders
 
 - Content
 

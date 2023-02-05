@@ -9,7 +9,7 @@ team: Team - Maintenance
 - Hot fixes are immediate fixes required for the production deployment.
 
 - Problems requiring remediation are triaged. They are ranked from immediate Hot Fixes to those that are not show stoppers.
-- The guardian and stakeholders may choose to Rollback the production deployment to a previous production deployment if triage determines the remediation time is unacceptable.
+- The guardian and Stakeholders may choose to Rollback the production deployment to a previous production deployment if triage determines the remediation time is unacceptable.
 
 - All fixes use the established fork, solution development, pull request processes, and version incrementing, including Hot Fixes.
   

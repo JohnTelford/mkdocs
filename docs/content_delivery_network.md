@@ -13,7 +13,7 @@
 
 ### DNS Resolver
 
-1.1.1.1 is Cloudflare’s public DNS resolver. It offers a fast and private way to browse the Internet. DNS resolversOpen external link translate domains like cloudflare.com into the IP addresses necessary to reach the website (like 104.16.123.96).
+1.1.1.1 is Cloudflare’s public DNS resolver. It offers a fast and Private way to browse the Internet. DNS resolversOpen external link translate domains like cloudflare.com into the IP addresses necessary to reach the website (like 104.16.123.96).
 
 Unlike most DNS resolvers like most ISPs, the 1.1.1.1 does not sell user data to advertisers. 1.1.1.1 has also been measured to be the fastest DNS resolver available
 

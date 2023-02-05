@@ -30,7 +30,7 @@ The development Command And Control tasks are:
   - Run [MkDocs](mkdocs.md) to create a local workstation website
 
 <!-- *DNC* -->
-- Use the Built-in command shell to create [preview](preview.md) to the Internet using  for stakeholders
+- Use the Built-in command shell to create [preview](preview.md) to the Internet using  for Stakeholders
 - Deploy production website to the Internet
 - And **much** more
 

@@ -32,7 +32,7 @@ Iterative website Define, Design, Develop, Deploy and Maintenance teams may be o
 Reach a [Minimum Viable Product](minimum_viable_product.md) is the first Development teams goal
  
 - [Team Define](team_define.md)   
-  Defining websites helps the Iterative Development helps teams and stakeholders understand the project.
+  Defining websites helps the Iterative Development helps teams and Stakeholders understand the project.
 
 - [Team Design](team_design.md)  
   Determines the core found
@@ -42,7 +42,7 @@ Reach a [Minimum Viable Product](minimum_viable_product.md) is the first Develop
   Translates the Define and Design teams processes into website pages 
 
 - [Team Deploy](team_deploy.md)  
-  Deploys the website making it available on the Internet. The production version is deployed when stakeholders agree.
+  Deploys the website making it available on the Internet. The production version is deployed when Stakeholders agree.
 
 - [Team Maintenance](team_maintenance.md)  
   Remediates the Define, Design, Develop, Deploy, or Security teams defects
