@@ -117,7 +117,7 @@ A summary of GitHub workflow for each team member is:
 1. Make topic edits and commits 
 2. Push after each commit to the cloned local project repository in GitHub account
 3. Periodically Pull from the central project repository. The *develop* branch will have merged accepted Pull Requests
-4. Periodically deploy local project repository to a private [Preview ](deploy#preview) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
+4. Periodically deploy local project repository to a private [Preview ](deploy#preview) website without disturbing other developers work or the production version, for stakeholders holders viewing and feedback. This reduces the Pull Request evaluation time because stakeholders holders interested in topics can see how they are progressing and working with the website.
 4. Open a Pull Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
 1. Team members discuss, and optionally continue committing on Pull Requests.
 

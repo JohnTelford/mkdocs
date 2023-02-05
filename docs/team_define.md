@@ -16,7 +16,7 @@ Defining website prerequisites is the first steps in optimizing website costs
 
 - Functionality
 
-- Stakeholders
+- stakeholders
 
 - Content
 

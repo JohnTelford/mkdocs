@@ -13,7 +13,7 @@ Who made the changes?
 When were the changes made?  
 Why were changes needed?  
 
-VCSS give each contributor a unified and consistent view of a project, surfacing work that's already in progress. Seeing a transparent history of changes, who made them, and how they contribute to the development of a project helps team members stay aligned while working independently.
+VCS give each contributor a unified and consistent view of a project, surfacing work that's already in progress. Seeing a transparent history of changes, who made them, and how they contribute to the development of a project helps team members stay aligned while working independently.
 
 In a Distributed Version Control System - DVCS, every developer has a full copy of the project and project history on their workstation. Git is the most popular distributed version control system. Git is commonly used for both open source and commercial software development, with significant benefits for individuals, teams and businesses.
 

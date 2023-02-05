@@ -21,7 +21,7 @@ A summary of GitHub workflow for each team member is:
   4. Make topic edits and commits 
   5. [Push](https://www.w3schools.com/git/git_push_to_remote.asp?remote=github) after each commit to the cloned local project repository in GitHub account
   6. Periodically [Pull](https://www.w3schools.com/git/git_push_to_remote.asp?remote=github) from the central project repository. The *develop* branch will have merged accepted Pull Requests
-  7. Periodically deploy local project repository to a private [Preview ](preview.md) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
+  7. Periodically deploy local project repository to a private [Preview ](preview.md) website without disturbing other developers work or the production version, for stakeholders holders viewing and feedback. This reduces the Pull Request evaluation time because stakeholders holders interested in topics can see how they are progressing and working with the website.
   8. Open a Pull Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
   9. Team members discuss, and optionally continue committing on Pull Requests.
 

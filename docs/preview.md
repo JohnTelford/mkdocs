@@ -6,7 +6,7 @@ As team members makes changes to their Local Website Repository, they may deploy
 
 When team members and stakeholders agree the changes are ready to be added to the Production Website, the team member makes a Central Website Repository update request
 
-The repository guardian and other team members evaluating Central Website Repository update requests, may deploy them to a [Preview](preview.md) for stake holders to preview and give feedback.
+The repository guardian and other team members evaluating Central Website Repository update requests, may deploy them to a [Preview](preview.md) for stakeholders holders to preview and give feedback.
 
 ## Repository Guardian Preview
 

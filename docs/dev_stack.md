@@ -55,7 +55,7 @@ flowchart TB
 
 	net([Internet]) 
 	
-	prevweb([Stake Holders Private Preview Website])
+	prevweb([stakeholders Holders Private Preview Website])
 
 	proweb([Production Website])
 
@@ -77,7 +77,7 @@ The core technologies are
 
 - Local Project Repository,
 
-- CDN - Content Delivery Network, like [Cloudflare](http://cloudflare.com), to deploying Stake Holders private [Preview](preview.md),  and the *Production Websites*,
+- CDN - Content Delivery Network, like [Cloudflare](http://cloudflare.com), to deploying stakeholders holders private [Preview](preview.md),  and the *Production Websites*,
 
 
 GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
@@ -133,7 +133,7 @@ A summary of GitHub workflow for each team member is:
   4. Make topic edits and commits 
   5. [Push](git.md#push) after each commit to the cloned local project repository in GitHub account
   6. Periodically [Pull](git.md#pull) from the central project repository. The **develop** branch will have merged accepted Pull Requests
-  7. Periodically deploy local project repository to a private [Preview ](preview.md) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
+  7. Periodically deploy local project repository to a private [Preview ](preview.md) website without disturbing other developers work or the production version, for stakeholders holders viewing and feedback. This reduces the Pull Request evaluation time because stakeholders holders interested in topics can see how they are progressing and working with the website.
   8. Open a [Pull](git.md#pull) Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
   9. Team members discuss, and optionally continue committing on Pull Requests.
 

@@ -12,7 +12,7 @@ title: Team - Deploy
 
 - Decisions about resources required for deploying production version of the website to the Internet
 
-- Decisions about resources required for team developers working on features, fixes, or testing to deploy private Preview Internet websites with their changes, for stake holders to view and give feedback, without disturbing other developers work or the production version
+- Decisions about resources required for team developers working on features, fixes, or testing to deploy private Preview Internet websites with their changes, for stakeholders holders to view and give feedback, without disturbing other developers work or the production version
 
 
 !!! Danger "Defects"
