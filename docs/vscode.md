@@ -10,13 +10,13 @@ Features include support for debugging, syntax highlighting, intelligent code co
 
 [Use Git version-control tools in Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/)
 
->Utilize the tight integration of Visual Studio Code with the Git source-control management system.
+Utilize the tight integration of Visual Studio Code with the Git source-control management system.
 
->Perform common GitHub tasks by using the Command Palette in Visual Studio.
+Perform common GitHub tasks by using the Command Palette in Visual Studio.
 
-> Monitor  status 
+Monitor  status 
 
->Committing  files to the developers "Local Project Repository"
+Committing  files to the developers "Local Project Repository"
 
 VScode is the Command And Control center for the project development stack.
 

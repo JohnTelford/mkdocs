@@ -64,11 +64,8 @@ flowchart TB
 <b>Iterative  Development Stack</b>
 </div>
 
-The website development process uses these core technologies:
+The iterative website development process uses these core technologies: Visual Studio Code, Git version control, GitHub as the Central Project Repository, Content Delivery Network, and MkDocs Static Site Generator.
 
-Visual Studio Code
-Git version control
-GitHub as the central project repository
 A clone of the central repository kept by each team member
 Cloudflare for content delivery network
 The process involves forking the central repository to individual team members' GitHub accounts and cloning it to workstations. Changes made to the cloned repositories cannot directly affect the central repository, which is managed by a gatekeeper team member. This helps maintain a unified source of truth for project history and files.
