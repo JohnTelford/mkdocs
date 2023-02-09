@@ -25,6 +25,10 @@ theme:
     primary: teal
     accent: indigo
  
+# Repository
+repo_name: mkdocs
+repo_url: https://github.com/JohnTelford/mkdocs.git
+
 # nav tree
 nav:
 #
