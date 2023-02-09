@@ -13,5 +13,5 @@ title: Team - Develop
 
 - Decisions about static site generator and programming tools
 		
-!!! Danger "Defects"
+
 	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 

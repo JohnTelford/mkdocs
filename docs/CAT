@@ -1,0 +1,578 @@
+<!-- Collaborative.md -->
+
+There are two primary ways people collaborate on GitHub:
+
+- Shared repository
+- Fork and pull
+
+With a shared repository, individuals and teams are explicitly designated as contributors with read, write, or administrator access. This simple permission structure, combined with features like protected branches, helps teams progress quickly when they adopt GitHub.
+
+For an open source project, or for projects to which anyone can contribute, managing individual permissions can be challenging, but a fork and pull model allows anyone who can view the project to contribute. A fork is a copy of a project under a developer's personal account. Every developer has full control of their fork and is free to implement a fix or a new feature. Work completed in forks is either kept separate, or is surfaced back to the original project via a pull request. There, maintainers can review the suggested changes before they're merged. For more information, see "Contributing to projects."
+
+{Merlyn}
+
+## Experience
+
+John Telford has been working in client development projects for over 30 years, with extensive experience across most IT functional groups. He is an experienced, knowledgeable, industry professional specialized in web hardware and software technology disciplines, architecture, and deployment.
+
+## Collaboration
+
+John has the capability to collaborate effectively with different groups and individuals, including senior management teams, external and internal clients, functional groups, individual contributors, and vendors.
+
+## Nuggets
+
+John has years of experience learning the ever-changing technologies of electronics, the internet, and software by participating in hands-on activities. He is passionate about investigating what’s new and improved in these industries, and uses the Hype Curve as a guide.
+
+
+!!! info
+    - A labyrinth symbolizes possible difficulties reaching website project goals. 
+    - My knowledge and experience with website technology disciplines may be helpful.
+
+![Mug Shot](/img/mugShot.png)
+
+John Telford  
+Portland, Oregon  
+JohnTelford.com LLC
+
+phone : text 503-312-7248
+<p><a href="mailto:john.telford@proton.me">Email</a></p>
+
+---
+
+### CDN
+
+---
+
+## Cloudflare
+
+- The Cloudflare global network runs every service in every data center so your users have a consistent experience everywhere — whether they are in Chicago or Cape Town. This means all customer traffic is processed at the data center closest to its source, with no backhauling or performance tradeoffs. And with single-pass inspection, security is streamlined and built-in.
+
+- Cloudflare's network is one of the biggest, most connected, and fastest in the world. It extends to more than 250 cities. In those cities, we're often present in multiple data centers in order to connect to as many networks and bring our services as close to as many users as possible. 
+
+- 95% of the entire Internet-connected world is now within 50 ms of a Cloudflare presence, and 80% of the entire Internet-connected world is within 20ms (for reference, it takes 300-400 ms for a human to blink):
+
+### DNS Resolver
+
+1.1.1.1 is Cloudflare’s public DNS resolver. It offers a fast and Private way to browse the Internet. DNS resolversOpen external link translate domains like cloudflare.com into the IP addresses necessary to reach the website (like 104.16.123.96).
+
+Unlike most DNS resolvers like most ISPs, the 1.1.1.1 does not sell user data to advertisers. 1.1.1.1 has also been measured to be the fastest DNS resolver available
+
+## What is a CDN?
+
+[What is a CDN?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+c
+## Branch build controls
+
+[Branch build controls](https://developers.cloudflare.com/pages/platform/branch-build-controls/)
+
+When connected to your git source, Pages allows you to control which environments and branches you would like to automatically build. By default, Pages will trigger a build any time you commit to either your production or preview environment. However, with branch build controls, you can configure automatic deployments to suit your preference on a per project basis.
+
+### Skip builds
+
+[Skip builds](https://developers.cloudflare.com/pages/platform/branch-build-controls/#skip-builds)
+
+Without any configuration required, you can choose to skip a build and deployment on an adhoc basis. By adding the [CI Skip], [CI-Skip], [Skip CI], [Skip-CI] or [CF-Pages-Skip] flag as a prefix in your commit message, Pages will omit that build/deployment. The prefixes are case insensitive.
+
+### Production branch control
+
+[Production branch control](https://developers.cloudflare.com/pages/platform/branch-build-controls/#production-branch-control)
+
+To configure deployment options, go to your Pages project > Settings > Builds & deployments > Configure Production deployments. Pages will default to setting your production environment to the branch you first push, but you can set your production to another branch if you choose.
+
+
+### Preview branch control
+
+[Preview branch control](https://developers.cloudflare.com/pages/platform/branch-build-controls/#preview-branch-control)
+
+When configuring automatic builds for preview deployments, there are three options to choose from.
+
+- All non-Production branches: By default, Pages will automatically deploy any and every commit to a preview branch.
+- None: Turns off automatic builds for all preview branches.
+- Custom branches: Customize the automatic deployments of certain preview branches.
+
+### Custom preview branch control
+https://developers.cloudflare.com/pages/platform/branch-build-controls/#custom-preview-branch-controlhttps://developers.cloudflare.com/pages/platform/branch-build-controls/#custom-preview-branch-control
+
+Custom preview branch control
+
+By selecting Custom branches, you can specify branches you wish to include and exclude from automatic deployments in the provided configuration fields. The configuration fields can be filled in two ways:
+
+- Static branch names: Enter the precise name of the branch you are looking to include or exclude (for example, staging or dev).
+
+- Wildcard syntax: Use wildcards to match multiple branches. You can specify wildcards at the start or end of your rule. The order of execution for the configuration is:
+	- Excludes
+	- Includes
+	- Skip
+	
+Pages will process the exclude configuration first, then go to the include configuration. If a branch does not match either then it will be skipped.
+
+### Wildcards
+
+[Wildcards](https://developers.cloudflare.com/pages/platform/branch-build-controls/#wildcards)
+
+A wildcard (*) is a character that is used within rules. It can be placed alone to match anything or placed at the start or end of a rule to allow for better control over branch configuration. A wildcard will match zero or more characters.
+
+For example, if you wanted to match all branches that started with fix/ then you would create the rule fix/* to match strings like fix/1, fix/bugsor fix/.
+
+---
+
+## Preview deployments
+
+[Preview Deployment](https://developers.cloudflare.com/pages/platform/preview-deployments/)
+
+Preview deployments allow you to preview new versions of your project without deploying it to production. To view preview deployments, navigate from the Account Home Pages and select your project
+ 
+### Customizing preview deployments access 
+ 
+ [Customizing preview deployments access](https://developers.cloudflare.com/pages/platform/preview-deployments/#customizing-preview-deployments-access)
+ 
+ You can use Cloudflare AccessOpen external link to manage access to your deployment previews. By default, these deployment URLs are public. Enabling the access policy will restrict viewing project deployments to your Cloudflare account.
+
+### Preview aliases
+
+[Preview aliases](https://developers.cloudflare.com/pages/platform/preview-deployments/#preview-aliases)
+
+When a preview deployment is published, it is given a unique, hash-based address — for example, <hash>.<project>.pages.dev. These are atomic and may always be visited in the future. However, Pages also creates an alias for git branch’s name and updates it so that the alias always maps to the latest commit of that branch.
+
+_
+## Contributing To Projects
+
+Learn how to contribute to a project through forking
+
+[Contributing to Projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)---
+title: Defect Remediation Costs​
+---
+
+### Costs
+
+- The highest cost over the life time of website projects is remediating defects.
+
+- Content and software defects cost less when found early, as this chart shows:
+
+![Defect Remediation Costs](/img/bugFixChart.jpg)
+
+##### Defect Remediation Costs
+
+The early defect detection mechanisms built into Iterative Development and [MkDocs]() site generator are:
+
+- VScode editor tool extensions continually check for syntax and other errors
+
+	- Fast refresh live-editing quickly showing changes and any runtime errors while typing
+
+- Team members deploy their copy of the project repository with their changes, to Private websites where stakeholder can see them and give feedback. See Preview Deployments
+ 
+!!! Danger "Defects"
+	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 
+
+!!! Abstract 
+
+	The Iterative Website Development Stack outlines a process for building and launching websites, typically involving iteration and collaboration between development and design teams.
+
+---
+
+### Dev Stack
+<div style="text-align: center;">
+
+
+``` mermaid
+flowchart TB
+	
+	crepo --- cdn
+
+	cdn --- mkdcdn
+
+	mkdcdn --- net
+
+	dev --- vsc 
+
+	github --- crepo
+
+	github --- net
+	
+	vsc --- lrepo
+	
+	net --- prevweb
+
+	net --- proweb
+
+	vsc --- net
+
+	vsc --- mkd
+
+	mkd --- lpreweb
+
+	dev([Team Developers])
+
+	cdn([Content Delivery Network])
+
+	crepo([Central Project Repository])
+
+	github([GitHub]) 
+
+	lrepo([Local Projet Repository])
+
+	lpreweb([Local Preview Website])
+
+	mkd([MkDocs Static Site Generator])
+
+	mkdcdn([MkDocs Static Site Generator])
+
+	net([Internet]) 
+	
+	prevweb([Stakeholders Private Preview Website])
+
+	proweb([Production Website])
+
+	vsc([VScode - Command and Control]) 
+
+```
+<b>Iterative  Development Stack</b>
+</div>
+
+The iterative website development process uses these core technologies: Visual Studio Code, Git version control, GitHub as the Central Project Repository, Content Delivery Network, and MkDocs Static Site Generator.
+
+A clone of the central repository kept by each team member
+Cloudflare for content delivery network
+The process involves forking the central repository to individual team members' GitHub accounts and cloning it to workstations. Changes made to the cloned repositories cannot directly affect the central repository, which is managed by a gatekeeper team member. This helps maintain a unified source of truth for project history and files.
+Developers use VScode as their development environment, with access to their local website repository. They submit changes to the central website repository through GitHub and changes approved by the project gatekeeper are incorporated into the central repository. Developers can then update their local repositories.
+---
+
+#### GitHub
+
+[GitHub](github.md) is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
+
+The core technology of Iterative Development is Git, GitHub, a central website repository controlled by a project gatekeeper, and a CDN like Cloudflare which deploys private preview websites, production sites and individual team member's private previews.
+
+GitHub is a web-hosted VCS that helps teams collaborate on a project without affecting each other's work by having one central repository acting as the source of truth. Team members use the website dev stack to develop, deploy, and maintain sites using a central repository to avoid confusion/defects.
+
+Team members fork a copy of the central repo to their GitHub account, then make a clone on workstations to make changes. They cannot directly make changes to the central repo and commit to their own repo clone. Stakeholders determine when changes are ready, then developers open PRs to the central repository, which the gatekeeper merges after team agreement. The central repo is deployed to the Internet after sufficient testing.
+
+#### GitHub Central Repository.  
+
+Iterative website development in teams uses Git, GitHub, and a central repository controlled by the project gatekeeper. The team members use the website development stack to develop, deploy, and maintain websites. Team members make changes to their local repository clone, commit changes to their local repository, and may deploy their local repository to a private preview internet website to get stakeholder feedback. A GitHub pull request is made when stakeholders determine the changes are ready, which is examined and tested before being committed to the central repository by the gatekeeper. Developers then pull the central repository changes and commit them to their local repository copy of the central project. After sufficient development and testing iterations, the gatekeeper deploys the central project repository to the public internet.
+
+---
+
+#### GitHub Workflow
+
+GitHub workflow uses the following steps for teams:
+
+Fork central repo to personal GitHub account
+Clone the forked repo to workstation
+Create topic branch from cloned repo
+Make changes and commits on topic branch
+Push topic branch to forked repo in GitHub account
+Regularly pull from central repo to get updated develop branch
+Occasionally deploy to private preview site for stakeholder feedback
+Open a Pull Request on forked repo for integrating local changes to central repo
+Team discusses, approves, and updates the Pull Request.---
+
+- Reference [GitHub Details](dev_stack_details#github_details)
+
+#### MkDocs Material - Static Site Generator
+
+[MkDocs Material](mkdocs.md)
+
+#### Content Delivery Network
+
+[Content Delivery Network](content_delivery_network.md)
+
+  
+A "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
+
+
+---
+title: Dev Stack Details
+---
+
+
+## GitHub and Git Details
+
+- A Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. 
+
+- It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions who changed what, where, when, and why for the lifetime of the project
+
+### GitHub Workflow
+
+- GitHub workflow is centered on Pull Request The GitHub workflow works with collaborating team members contributing to the central project repository using the Forks. It is centered on the topic Branches workflow.
+
+A summary of GitHub workflow for each team member is:
+
+  1. [Fork](https://www.w3schools.com/git/git_remote_fork.asp?remote=github) the central project repository creating a local project repository in individual team members GitHub account
+  2. [Clone](https://www.w3schools.com/git/git_clone.asp?remote=github) the forked local project repository in team member GitHub account to workstation
+  3. Creates a topic Branch off the cloned local project repository *main* branch
+  4. Make topic edits and commits 
+  5. [Push](https://www.w3schools.com/git/git_push_to_remote.asp?remote=github) after each commit to the cloned local project repository in GitHub account
+  6. Periodically [Pull](https://www.w3schools.com/git/git_push_to_remote.asp?remote=github) from the central project repository. The *develop* branch will have merged accepted Pull Requests
+  7. Periodically deploy local project repository to a Private [Preview ](preview.md) website without disturbing other developers work or the production version, for Stakeholders holders viewing and feedback. This reduces the Pull Request evaluation time because Stakeholders holders interested in topics can see how they are progressing and working with the website.
+  8. Open a Pull Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
+  9. Team members discuss, and optionally continue committing on Pull Requests.
+
+---
+
+### Git Details
+
+- Git is not the same as GitHub.
+- GitHub makes tools that use Git.### The Project Gatekeeper 
+	
+- Merges or closes Pull Requests to the central project repository, and deploys the central project repository to a Private [Preview ](deploy#preview) website for stack holders viewing. The teams and gatekeeper continues the GitHub workflow process until stack holders agree the central project repository is ready for release to the public internet 
+
+- Teams may Pull the central project repository at anytime to view and test other topic branches.
+
+
+
+#### Reference
+
+- [What is Git and GitHub](https://www.w3schools.com/git/default.asp)
+- [GitHub](https://github.com/)
+- [Git](https://git-scm.com/)
+
+---
+
+### VScode
+
+[Introduction Videos](https://code.visualstudio.com/docs/getstarted/introvideos)
+---
+title: Development Tools
+---
+
+## VScode 
+
+![vscodelogo](/img/vscodelogo.png){ width="75" }
+
+[Visual Studio Code](https://code.visualstudio.com) commonly know as VScode, is a Microsoft product that has become the goto editor for many.It is a code editor redefined and optimized for building and debugging modern web and cloud applications. It is free, built on open source, and runs everywhere. Developer surveys show VScode is ranked the most popular developer environment tool 
+
+Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [git](git-github.md#git)
+
+[VScode](#vscode) is the command and control center for the website development stack.
+
+The development command and control tasks are:
+
+- Editing Markdown and Markdown web programming materials
+- Use [git](#git) and [GitHub](#github) to manage project files. [Git](#git) is built-in and optimized to work with Microsoft [GitHub](#github)
+- Editor tool extensions continually check for syntax and other errors
+- Live edit browser previews show how edits will look when deployed
+<!-- - Deploy secure [preview](preview.md) to the Internet using [MkDocs](material_mkdocs.md) for Stakeholders -->
+- Deploy production website to the Internet
+- Built-in command shell
+- And **much** more
+
+### Extensions
+
+Useful extensions are:
+
+- Dark+ Material.  
+The default Dark+ theme, using Material's color palette
+
+- ESlint.  
+Integrates ESLint JavaScript into VS Code
+
+- [GitHub](#github) Repositories.  
+Remotely browse and edit any [GitHub](#github) repository
+
+- Lorem Text Generator  
+Lorem text generator extension for [VScode](#vscode)
+
+-  Markdown All in One  
+All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more)
+
+- Rainbow Brackets  
+Provide rainbow colors for the round brackets, the square brackets and the squiggly brackets
+
+- Todo Tree  
+This extension quickly searches the local repository workspace for comment tags like TODO and FIXME, and displays them in a tree view in the activity bar
+
+- VScode icons  
+Icons for Visual Studio Code
+
+### Use Git version-control tools in Visual Studio Code
+
+[Use Git version-control tools in Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/)
+
+
+
+#### Git Client
+
+[VScode](#vscode) built-in git commands :
+
+ - Review diffs, 
+ - Stage files
+ - Make commits
+ - Push 
+ - pull
+ - and more
+
+## Git Desktop
+
+![Git Desk Top](/img/gitdesktop.png){ width="75" }
+
+An alternative to using these built-in [VScode](#vscode) commands is to use [GitHub Desktop](https://docs.github.com/en/desktop). It abstract [Github](#github) and more [Git](#git) commands. It interacts with GitHub using a GUI instead of the command line or a web browser. 
+
+[GitHub Desktop and VSCode](http://www.rodanthi-alexiou.com/github-101-github-desktop-and-vscode/) documents how to use GitHub Desktop with [VScode](#vscode). 
+
+---
+
+## Git and GitHub References
+
+These [Git](#git) and [Github](#github) references contain concepts and commands:
+
+- [Version Control System](https://www.w3docs.com/learn-git/introduction4.html)
+- [VScode](#vscode) built-in gitg commands
+- [Git version-control tools in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/)
+- [Git and GitHub Introduction](https://www.w3schools.com/git/git_intro.asp?remote=github)
+- [Git](https://git-scm.com/book/en/v2)
+- [GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/)
+- [GitHub Desktop](https://docs.github.com/en/desktop)
+
+
+## GitHub
+
+![gitHublogo](/img/gitHublogo.png){ width="75" }
+
+
+
+The core technologies of Iterative Development are, [Git](#git) and GitHub. The central project repository is controlled by the project gatekeeper, and a content delivery network, like [Cloudflare](#deploy/cloudflare), where Internet production websites and individual team Private [Preview](deploy#preview) Internet websites, are deployed.
+
+GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+
+> It helps answer the questions for the lifetime of the project *who changed what, where, when, and why?* 
+
+Team members use the [Website Development Stack](website-development-stack) to develop and deploy websites to the Internet.
+
+### The GitHub Workflow
+
+GitHub workflow is centered on Pull Request The GitHub workflow works with collaborating team members contributing to the central project repository using the Forks. It is centered on the topic Branches workflow.
+
+A summary of GitHub workflow for each team member is:
+
+1. Fork the central project repository creating a local project repository in individual team members GitHub account
+2. Clone the forked local project repository in team member GitHub account to workstation
+1. Creates a topic Branch off the cloned local project repository *main* branch
+1. Make topic edits and commits 
+2. Push after each commit to the cloned local project repository in GitHub account
+3. Periodically Pull from the central project repository. The *develop* branch will have merged accepted Pull Requests
+4. Periodically deploy local project repository to a Private [Preview ](deploy#preview) website without disturbing other developers work or the production version, for Stakeholders holders viewing and feedback. This reduces the Pull Request evaluation time because Stakeholders holders interested in topics can see how they are progressing and working with the website.
+4. Open a Pull Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
+1. Team members discuss, and optionally continue committing on Pull Requests.
+
+The project gatekeeper merges or closes Pull Requests to the central project repository, and deploys the central project repository to a Private [Preview ](deploy#preview) website for stack holders viewing. The teams and gatekeeper continues the GitHub workflow process until stack holders agree the central project repository is ready for release to the public internet 
+
+Teams may Pull the central project repository at anytime to view and test other topic branches.
+
+---
+
+## Git
+
+![gitlogo](/img/gitlogo.png){ width="75" }
+
+[Git Tutorial](https://www.w3schools.com/git/default.asp?remote=github)
+
+### Fork
+
+[Git GitHub Fork](https://www.w3schools.com/git/git_remote_fork.asp?remote=github)
+
+A *fork* is a copy of the project repository in a team member's GitHub account. Forks let team members make changes to a project without affecting the original repository or other team members. Team members can fetch updates from the project repository with a [pull](#pull) command
+
+ Forks are used to either propose changes to someone else's project to which you do not have write access, or to use someone else's project as a starting point for your own idea. You can fork a repository to create a copy of the repository and make changes without affecting the upstream repository
+
+Forking a repository is similar to copying a repository, with two major differences:
+
+- You can use a pull request to suggest changes from your user-owned fork to the original repository in its GitHub instance, also known as the upstream repository.
+
+- You can bring changes from the upstream repository to your local fork by synchronizing your fork with the upstream repository.
+
+[Fork a Repo](https://docs.github.com/en/enterprise-server@3.4/get-started/quickstart/fork-a-repo)
+
+### Clone
+
+[Git Clone from GitHub](https://www.w3schools.com/git/git_clone.asp?remote=github)
+
+A clone is a full copy of a repository, including all logging and versions of files, copied from the team member GitHub account to team member workstation.
+
+[Commits](#commits) keep the team member local project repository up to date on the workstation and on GitHub. If the workstation copy is damaged, the latest commit can be cloned from GitHubto the workstation.
+
+### Branch
+
+[Git Branch](https://www.w3schools.com/git/git_branch.asp?remote=github)
+
+Creating a branch is to safely diverge from a line of development and continuing on another. An example is creating a branch create a feature or to test a radical idea
+
+Branching enables working on different parts of a project without impacting other branches. Work on a branch can be merged with other project branches. 
+
+Switching between branches and work on different projects without them interfering with each other. Branching in Git is lightweight and fast!
+
+### Checkout
+
+### Switch 
+
+Switches to a new branch
+
+A quick way of switching branch on Git is to use the `git switch` command and specify the name of the branch you want to switch.
+
+If the destination branch does not exist, you have to specify the “-c” option (for “create branch“), otherwise you will get an error message when switching to that branch.
+
+$ git switch <existing_branch>
+
+$ git switch -c <non_existing_branch>
+Again, as an example, let’s say that you want to switch to the “feature” branch from the “master” branch.
+
+In order to switch from the “master” branch to the “feature” branch, use the “git switch” command and specify the destination branch (which is “feature” in this case)
+
+$ git switch feature
+switch branch using git switch
+On the other hand, if you try to switch to a non existing branch, you will get the following error message
+
+$ git switch non-existing-branch
+
+fatal: invalid reference: non-existing-branch
+To solve this error, make sure to append the “-c” option to the “git switch” command to specify that you want to switch to a new branch.
+
+$ git switch -c non-existing-branch
+
+Switched to a new branch 'non-existing-branch'
+Congratulations, you have now successfully switched to another branch and you can start working on it.
+
+### Git Desktop
+
+![gitdesktop](/img/gitdesktop.png){ width="75" }
+
+Git Desktop is an alternative to using [VScode](#vscode) built-in Git commands. It abstract [Github](#github) and more [Git](#git) commands. It interacts with GitHub using a GUI instead of the command line or a web browser. It is a Microsoft product available on Mac and Windows.
+
+[GitHub Desktop and VSCode](http://www.rodanthi-alexiou.com/github-101-github-desktop-and-vscode/) documents explain how to use GitHub Desktop with [VScode](#vscode). 
+
+---
+
+## iA Writer
+
+Editing Markdown / MDX website pages and blog posts using iA Writer is faster because of focus and grammar features with live preview.
+
+![ialogo](/img/ialogo.png){ width="75" } 
+
+- [iA Writer](https://apps.apple.com/us/app/ia-writer/id775737590?mt=12) is a Markdown Writing app:
+    - Faster way to write MDX website material 
+    - Extensive Style Check
+    - Focus
+        - Sentence
+        - Paragraph
+    - Available for Mac, iOS, Windows, and Android
+
+ The Mac iA Writer stores files in iCloud. They are available for editing using supported devices when there is an internet connection.
+
+---
+
+## Chronosync
+
+![ChronoSync](/img/CSLogo300.png){ width="75" }
+
+
+When one or more pages have been edited using [iA Writer](#ia-writer), the  [ChronoSync](https://www.econtechnologies.com/chronosync/overview.html) Mac app is used to synchronize files between iA Writer and the local repository. Since the  iA Writer files are store in iCloud, they are available for editing using supported devices when there is an internet connection.
+
+If edits have been made to files the local repository, use ChronoSync to synchronize them to iA Writer.
+
+---
+
+!!! Danger "Defects"
+	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 
+
+
+[def]: material_

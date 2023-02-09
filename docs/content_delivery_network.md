@@ -20,7 +20,9 @@ Unlike most DNS resolvers like most ISPs, the 1.1.1.1 does not sell user data to
 ## What is a CDN?
 
 [What is a CDN?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
-c
+
+Cloudflare is a content delivery network (CDN) and security provider that helps speed up websites and protect them from malicious threats. It uses a distributed network of caching servers across the world to cache websites and minimize loading times, while also providing a range of security features such as DDoS protection and Web Application Firewall (WAF).
+
 ## Branch build controls
 
 [Branch build controls](https://developers.cloudflare.com/pages/platform/branch-build-controls/)

@@ -112,6 +112,8 @@ Team discusses, approves, and updates the Pull Request.---
 
 [Content Delivery Network](content_delivery_network.md)
 
+
+
   
 A "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
 
