@@ -74,10 +74,8 @@ nav:
 
 plugins:
     - search:
-    
-      # lang: en
-    - git-revision-date-localized:
-        type: timeago
+      # - git-revision-date-localized:
+      #   type: timeago
       
 markdown_extensions:
   - admonition
