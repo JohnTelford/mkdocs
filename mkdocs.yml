@@ -76,8 +76,8 @@ plugins:
     - search:
     
       # lang: en
-    # - git-revision-date-localized:
-      # type: date
+    - git-revision-date-localized:
+        type: timeago
       
 markdown_extensions:
   - admonition
