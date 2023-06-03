@@ -1,5 +1,5 @@
 
-### Goals
+## Minimum Viable Product
 
 The first goal of website development projects is a Minimum Viable Product.
 

@@ -1,7 +1,7 @@
 
 !!! Abstract 
 
-	The Iterative Website Development Stack outlines a process for building and launching websites, typically involving iteration and collaboration between development and design teams.
+	The Iterative Website Development Stack outlines a process for building and launching websites, typically involving iteration and collaboration between teams and steak holders.
 
 ---
 
